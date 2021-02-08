@@ -1,0 +1,142 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.loginContent .loginTop .topBg {
+  background-image: url('../images/topbg.png');
+  background-size: 100% 100%;
+  width: 10rem;
+  height: 3.92rem;
+}
+.loginContent .loginTop .logo {
+  background-image: url('../images/LOGO.png');
+  background-size: 100% 100%;
+  width: 2.45333333rem;
+  height: 2.45333333rem;
+  margin: 0 auto;
+  margin-top: -1.22666667rem;
+}
+.loginContent .loginTop .loginTitle {
+  margin-top: 0.85333333rem;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  color: #505050;
+}
+[data-dpr="2"] .loginContent .loginTop .loginTitle {
+  font-size: 40px;
+}
+[data-dpr="2.5"] .loginContent .loginTop .loginTitle {
+  font-size: 50px;
+}
+[data-dpr="2.75"] .loginContent .loginTop .loginTitle {
+  font-size: 55px;
+}
+[data-dpr="3"] .loginContent .loginTop .loginTitle {
+  font-size: 60px;
+}
+[data-dpr="4"] .loginContent .loginTop .loginTitle {
+  font-size: 80px;
+}
+.loginContent .loginForm {
+  width: 7.24rem;
+  margin: 0 auto;
+}
+.loginContent .loginForm div {
+  width: 100%;
+  height: 1.25333333rem;
+  line-height: 1.25333333rem;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 0.13333333rem;
+}
+.loginContent .loginForm div span {
+  display: block;
+  float: left;
+}
+.loginContent .loginForm div span img {
+  width: 0.4rem;
+  height: 0.46666667rem;
+  margin-left: 0.26666667rem;
+  margin-right: 0.26666667rem;
+}
+.loginContent .loginForm div input {
+  border: none;
+  float: left;
+  font-size: 0.4rem;
+}
+.loginContent .loginForm .note {
+  position: relative;
+  font-size: 0.32rem;
+}
+.loginContent .loginForm .note .getCode {
+  position: absolute;
+  right: 0 ;
+  top: 0;
+}
+.loginContent .useCode {
+  font-weight: 400;
+  color: #4976AF;
+  font-size: 14px;
+  width: 7.24rem;
+  margin: 0 auto;
+  margin-top: 0.49333333rem;
+}
+[data-dpr="2"] .loginContent .useCode {
+  font-size: 28px;
+}
+[data-dpr="2.5"] .loginContent .useCode {
+  font-size: 35px;
+}
+[data-dpr="2.75"] .loginContent .useCode {
+  font-size: 39px;
+}
+[data-dpr="3"] .loginContent .useCode {
+  font-size: 42px;
+}
+[data-dpr="4"] .loginContent .useCode {
+  font-size: 56px;
+}
+.loginContent .loginButton {
+  width: 7.18666667rem;
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  font-size: 0.48rem;
+  background: linear-gradient(90deg, #4b4c5e, #66718e);
+  box-shadow: 0px 4px 20px 0px rgba(48, 48, 48, 0.4);
+  border-radius: 0.58666667rem;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 1.86666667rem;
+}
+.loginContent .register {
+  text-align: center;
+  font-weight: 400;
+  color: #333;
+  margin-top: 1.28rem;
+  font-size: 0.48rem;
+}
+.loginContent .bottomBg {
+  background-image: url('../images/bottombg.png');
+  background-size: 100% 100%;
+  width: 10rem;
+  height: 2.38666667rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}

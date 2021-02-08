@@ -1,0 +1,278 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.tansincontent [class*=van-hairline]::after {
+  border: none;
+}
+.tansincontent .myCenter .topBox {
+  width: 10rem;
+  height: 10.8rem;
+  background-image: url('../images/back.png');
+  background-size: 100% 100%;
+}
+.tansincontent .myCenter .topBox .equityBox {
+  color: #dcbe8d;
+}
+.tansincontent .myCenter .topBox .detailBox {
+  color: #fff;
+  font-size: 17px;
+  height: 1.04rem;
+  line-height: 1.04rem;
+  padding-top: 0.58666667rem;
+  padding-bottom: 0.58666667rem;
+  padding-left: 1.06666667rem;
+  padding-left: 0.53333333rem;
+}
+[data-dpr="2"] .tansincontent .myCenter .topBox .detailBox {
+  font-size: 34px;
+}
+[data-dpr="2.5"] .tansincontent .myCenter .topBox .detailBox {
+  font-size: 43px;
+}
+[data-dpr="2.75"] .tansincontent .myCenter .topBox .detailBox {
+  font-size: 47px;
+}
+[data-dpr="3"] .tansincontent .myCenter .topBox .detailBox {
+  font-size: 51px;
+}
+[data-dpr="4"] .tansincontent .myCenter .topBox .detailBox {
+  font-size: 68px;
+}
+.tansincontent .myCenter .topBox .detailBox .head {
+  width: 1.04rem;
+  height: 1.04rem;
+  margin-left: 0.66666667rem;
+  margin-right: 0.48rem;
+  float: left;
+}
+.tansincontent .myCenter .topBox .detailBox .head img {
+  padding: 0.05333333rem;
+  width: 0.93333333rem;
+  height: 0.93333333rem;
+  border-radius: 0.46666667rem;
+}
+.tansincontent .myCenter .topBox .detailBox .edit {
+  display: inline-block;
+  vertical-align: middle;
+}
+.tansincontent .myCenter .topBox .detailBox .edit img {
+  width: 0.42666667rem;
+  margin-top: -0.10666667rem;
+  vertical-align: middle;
+}
+.tansincontent .myCenter .topBox .cardBox {
+  position: relative;
+  padding-top: 0.02666667rem;
+  font-size: 17px;
+  width: 9.01333333rem;
+  height: 3.70666667rem;
+  margin: 0 auto;
+  color: #61481c;
+  background-image: url('../images/card.png');
+  background-size: 100% 100%;
+}
+[data-dpr="2"] .tansincontent .myCenter .topBox .cardBox {
+  font-size: 34px;
+}
+[data-dpr="2.5"] .tansincontent .myCenter .topBox .cardBox {
+  font-size: 43px;
+}
+[data-dpr="2.75"] .tansincontent .myCenter .topBox .cardBox {
+  font-size: 47px;
+}
+[data-dpr="3"] .tansincontent .myCenter .topBox .cardBox {
+  font-size: 51px;
+}
+[data-dpr="4"] .tansincontent .myCenter .topBox .cardBox {
+  font-size: 68px;
+}
+.tansincontent .myCenter .topBox .cardBox .type {
+  position: absolute;
+  left: 0.53333333rem;
+  top: 0.53333333rem;
+  z-index: 1;
+}
+.tansincontent .myCenter .topBox .cardBox .wordTip {
+  position: absolute;
+  left: 1.92rem;
+  top: 1.78666667rem;
+  z-index: 1;
+}
+.tansincontent .myCenter .topBox .cardBox .day {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 0.13333333rem;
+  margin-right: 0.13333333rem;
+}
+[data-dpr="2"] .tansincontent .myCenter .topBox .cardBox .day {
+  font-size: 40px;
+}
+[data-dpr="2.5"] .tansincontent .myCenter .topBox .cardBox .day {
+  font-size: 50px;
+}
+[data-dpr="2.75"] .tansincontent .myCenter .topBox .cardBox .day {
+  font-size: 55px;
+}
+[data-dpr="3"] .tansincontent .myCenter .topBox .cardBox .day {
+  font-size: 60px;
+}
+[data-dpr="4"] .tansincontent .myCenter .topBox .cardBox .day {
+  font-size: 80px;
+}
+.tansincontent .myCenter .topBox .cardBox .register {
+  width: 2.4rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1.33333333rem;
+}
+.tansincontent .myCenter .topBox h2 {
+  padding-top: 0.53333333rem;
+  margin-bottom: 0.66666667rem;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+[data-dpr="2"] .tansincontent .myCenter .topBox h2 {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .tansincontent .myCenter .topBox h2 {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .tansincontent .myCenter .topBox h2 {
+  font-size: 44px;
+}
+[data-dpr="3"] .tansincontent .myCenter .topBox h2 {
+  font-size: 48px;
+}
+[data-dpr="4"] .tansincontent .myCenter .topBox h2 {
+  font-size: 64px;
+}
+.tansincontent .myCenter .topBox ul {
+  width: 8.96rem;
+  margin: 0 auto;
+}
+.tansincontent .myCenter .topBox ul li {
+  margin-bottom: 0.66666667rem;
+  width: 25%;
+  text-align: center;
+  float: left;
+}
+.tansincontent .myCenter .line {
+  height: 0.26666667rem;
+  background: #f6f6f6;
+}
+.tansincontent .myCenter .wallet {
+  padding-top: 0.74666667rem;
+}
+.tansincontent .myCenter .wallet .title {
+  height: 0.42666667rem;
+  line-height: 0.42666667rem;
+  width: 2.26666667rem;
+  text-align: center;
+  margin: 0 auto;
+  background: #404040;
+}
+.tansincontent .myCenter .wallet .title span {
+  font-size: 16px;
+  width: 1.86666667rem;
+  height: 0.42666667rem;
+  line-height: 0.42666667rem;
+  color: #545454;
+  display: block;
+  background: #fff;
+  margin: 0 auto;
+}
+[data-dpr="2"] .tansincontent .myCenter .wallet .title span {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .tansincontent .myCenter .wallet .title span {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .tansincontent .myCenter .wallet .title span {
+  font-size: 44px;
+}
+[data-dpr="3"] .tansincontent .myCenter .wallet .title span {
+  font-size: 48px;
+}
+[data-dpr="4"] .tansincontent .myCenter .wallet .title span {
+  font-size: 64px;
+}
+.tansincontent .myCenter .iconAll {
+  color: #898989;
+  font-size: 12px;
+  margin-top: 0.74666667rem;
+  margin-bottom: 0.61333333rem;
+  padding-left: 1.41333333rem;
+  padding-right: 1.41333333rem;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+[data-dpr="2"] .tansincontent .myCenter .iconAll {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .tansincontent .myCenter .iconAll {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .tansincontent .myCenter .iconAll {
+  font-size: 33px;
+}
+[data-dpr="3"] .tansincontent .myCenter .iconAll {
+  font-size: 36px;
+}
+[data-dpr="4"] .tansincontent .myCenter .iconAll {
+  font-size: 48px;
+}
+.tansincontent .myCenter .iconAll div div img {
+  width: 0.8rem;
+  margin-bottom: 0.13333333rem;
+}
+.tansincontent .myCenter .iconAll div .bigSize {
+  color: #404040;
+  margin-top: 0.13333333rem;
+  font-size: 0.53333333rem;
+}
+.tansincontent .myCenter .chargeButton {
+  background: linear-gradient(315deg, #005eff 0%, #3e82f7 100%);
+  width: 9.06666667rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 0.61333333rem;
+  display: block;
+  border-radius: 0.13333333rem;
+  margin-bottom: 0.53333333rem;
+}
+.tansincontent .myCenter .logOUt {
+  background: linear-gradient(to right, #4b4c5e, #66718e);
+  width: 10rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 0.61333333rem;
+  display: block;
+}

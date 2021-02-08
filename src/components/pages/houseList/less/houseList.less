@@ -1,0 +1,201 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.tansincontent{
+    [class*=van-hairline]::after{
+        border:none;
+    }
+    .basePosi(@l:0,@t:0){
+        position: absolute;
+        .px2rem(left,@l);
+        .px2rem(top,@t);
+        z-index: 1;
+    }
+    .houseListBox{
+        .searchBox{
+            position: relative;
+            .address{
+                .basePosi(55,36) ;
+                .px2rem(width,100);
+                .px2rem(padding-right,24);
+                .px2rem(height,38);
+                .px2rem(line-height,38);
+                background: none;
+                border-right: 1px solid #eaeaea;
+                text-align: center;
+            }
+            .van-search{
+                // .px2rem(padding-right,100);
+            }
+            .van-search .van-cell{
+                .px2rem(padding-left,170);
+            }
+            .iconAddre{
+                .px2rem(width,40);
+                .px2rem(top,30);
+                .px2rem(right,40);
+                position: absolute;
+                z-index: 1;
+            }
+        }
+        .criteria{
+            .van-dropdown-menu__title::after{
+                transform: rotate(180deg);
+                border:none;
+                display: block;
+                .px2rem(width,20);
+                .px2rem(height,8);
+                background: url(../images/arrow.png) no-repeat;
+                background-size: 100% 100%;
+                .px2rem(top,20);
+            }
+            .van-dropdown-menu__title--active::after{
+                transform: rotate(0deg);
+                .px2rem(margin-top,-12);
+            }
+            .van-dropdown-menu__title:first-child{
+                .px2rem(padding-left,60); 
+            }
+            .van-ellipsis{
+                white-space: normal;
+                .px2rem(font-size,28);
+                .px2rem(line-height,28);
+                
+            }
+            .van-dropdown-menu__item:nth-of-type(1) .van-ellipsis{
+                // .px2rem(width,116);
+            }
+        }
+        .listBox{
+            background: #f6f6f6;
+            .px2rem(padding-top,50);
+            .px2rem(padding-bottom,40);
+            .van-tabs{
+                margin: 0 auto;
+                .px2rem(width,674);
+                .px2rem(margin-bottom,20);
+            }
+            .van-tabs__nav{
+                display:-webkit-inline-box;
+                background: none;
+            }
+            .van-tabs--line .van-tabs__wrap{
+                .px2rem(height,56);
+            }
+            .van-tabs__line{
+                height: 0;
+            }
+            .van-tab{
+                .px2rem(line-height,56);
+                .px2rem(font-size,24);
+                .px2rem(width,100);
+                .px2rem(margin-right,16);
+                .px2rem(border-radius,8);
+                border:1px solid #d6d6d6;
+            }
+            .van-tab--active{
+                color: #fff;
+                border:none;
+                background: #65708c;
+            }
+        }
+        .houseList{
+
+            display: flex;
+            .px2rem(width,674);
+            .px2rem(height,184);
+            .px2rem(border-radius,10);
+            background: #fff;
+            margin: 0 auto;
+            .px2rem(margin-bottom,20);
+            box-shadow: 0 0 8px #ccc;
+            .addBox{
+                flex: 2;
+                .px2rem(padding-left,18);
+                .px2rem(padding-right,18);
+                .px2rem(padding-top,12);
+                h2{
+                    .px2rem(font-size,30);
+                }
+                .addI{
+                    .px2rem(margin-left,16);
+                    .px2rem(margin-top,-6);
+                    vertical-align: middle;
+                    .px2rem(width,100);
+                    display: inline-block;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    font-weight: normal;
+                }
+                span{
+                    .px2rem(margin-bottom,10);
+                    overflow: hidden;
+                    .px2rem(height,31);
+                    display: block;
+                    .px2rem(font-size,18);
+                    color: #999;
+                    .addImg{
+                        .px2rem(width,21);
+                        .px2rem(margin-right,10);
+                        vertical-align: middle;
+                    }
+                }
+                span.have{
+                    color: #acaaff;
+                    border:1px solid #acaaff;
+                    text-align: center;
+                    .px2rem(border-radius,6);
+                    .px2rem(width,106);
+                    .px2rem(font-size,16);
+                    .px2rem(height,30);
+                    .px2rem(line-height,30);
+                    .px2rem(margin-top,8);
+                }
+            }
+            .imgBox,.moneyBox{
+                flex: 1;
+            }
+            .imgBox{
+                img{
+                    .px2rem(width,160);
+                    .px2rem(height,168);
+                    .px2rem(border-top-left-radius,10);
+                    .px2rem(border-bottom-left-radius,10);
+                     height: 100%;
+                }   
+               
+
+            }
+            .moneyBox{
+                border-left: 1px solid #ebebeb;
+                .px2rem(padding-left,18);
+                span{
+                    display: block;
+                }
+                span:nth-of-type(1){
+                    .px2rem(padding-top,50);
+                    .px2rem(padding-bottom,20);
+                    .px2rem(font-size,20);
+                    color:#65708c;
+                    font-weight: bold;
+                    strong{
+                        font-weight: normal;
+                        .px2rem(font-size,38);
+                    }
+                    .colorGray{
+                        font-weight: normal;
+                        color: #999;
+                    }
+                }
+                span:nth-of-type(2){
+                    .px2rem(font-size,20);
+                    color:#ff9e4f ;
+                }
+            }
+        }
+    }
+    
+}

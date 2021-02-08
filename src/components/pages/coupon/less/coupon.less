@@ -1,0 +1,94 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.tansincontent{
+     
+    .couponList{
+        .px2rem(padding-left,40);
+        .px2rem(padding-right,40);
+        .px2rem(padding-top,30);
+        .van-radio__icon .van-icon{
+            border:none;
+            background: #fff;
+        }
+        .van-radio__icon--checked .van-icon{
+            color: #000;
+            font-weight: bold;
+        }
+        .list{
+            position: relative;
+            background: #c2c2c2;
+            .px2rem(width,672);
+            .px2rem(height,200);
+            .px2rem( border-radius,16);
+            margin: 0 auto;
+            .px2rem(margin-bottom,20);
+            color: #e6e6e6;
+            overflow: hidden;
+            .van-radio,.discount,.money,.detail,.oneCircle,.twoCircle,.threeCircle{
+                position: absolute;
+            }
+            .discount,.money,.detail{
+                color: #fff;
+            }
+            .van-radio{ 
+                .px2rem(bottom,60);
+                .px2rem(left,32);
+            }
+            .discount{
+                .px2rem(top,20);
+                .px2rem(right,30);
+                .px2rem(font-size,26);
+            }
+            .money{
+                .px2rem(bottom,60);
+                .px2rem(left,20);
+                .px2rem(font-size,60);
+                span{
+                    .px2rem(font-size,38);
+                }
+            }
+            .detail{
+                .px2rem(font-size,20);
+                .px2rem(top,74);
+                .px2rem(left,270);
+                span{
+                    display: block;
+                }
+            }
+            .oneCircle,.twoCircle,.threeCircle{
+                display: block;
+                opacity: .1;
+                background: #eee7e7;
+            }
+            .base(@t:0,@l:0,@w:0,@h:0,@b:0){
+                .px2rem(top,@t);
+                .px2rem(left,@l);
+                .px2rem(width,@w);
+                .px2rem(height,@h);
+                .px2rem(border-radius,@b);
+            }
+            .oneCircle{
+                .base(120,68,90,90,45)
+            }
+            .twoCircle{
+                .base(16,322,120,120,60)
+            }
+            .threeCircle{
+                .base(54,396,188,188,94)
+            }
+        }
+        .orange{
+            background:linear-gradient(to right,#ff817a,#ffb382);
+        }
+        .blue{
+            background:linear-gradient(to right,#608dff,#6cd7e8);
+        }
+        .purple{
+            background:linear-gradient(to right,#9287fd,#bc95ff);
+        }
+    }
+    
+}

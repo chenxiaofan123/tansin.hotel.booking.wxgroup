@@ -1,0 +1,63 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.content{
+    background:rgba(246,246,246,1);
+    height: 100%;
+  .serchTop{
+    .van-field__control{
+        text-align: center;
+    }
+  }
+  .contentList{
+    background:rgba(246,246,246,1);
+    .px2rem(padding-left,40);
+    .px2rem(padding-right,40);
+    .px2rem(padding-top,60);
+    .px2rem(padding-bottom,60);
+      .hotSerch{
+          .hotTitle{
+              img{
+                .px2rem(width,27);
+                .px2rem(height,30);
+              }
+              span{
+                .px2rem(margin-right,10);
+                .px2px(font-size,28);
+                font-family:Source Han Sans CN;
+                font-weight:400;
+                color:rgba(53,53,53,1);
+              }
+          }
+          .px2rem(margin-bottom,45);
+      }
+      .list{
+          .part{
+             .px2rem(margin-bottom,46);
+              .partTitle{
+                .px2rem(margin-bottom,20);
+                img{
+                    .px2rem(width,36);
+                    .px2rem(height,36);
+                    .px2rem(margin-right,10);
+                }
+                span{
+                    .px2rem(font-size,24);
+                    font-family:Source Han Sans CN;
+                    font-weight:400;
+                    color:rgba(50,50,50,1);
+                }
+              }
+          }
+          .partList{
+            .van-grid-item__content{
+                .px2rem(padding-top,28);
+                .px2rem(padding-bottom,28);
+            }
+          }
+      }
+  }
+  
+}

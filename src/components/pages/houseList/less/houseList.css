@@ -1,0 +1,193 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.tansincontent [class*=van-hairline]::after {
+  border: none;
+}
+.tansincontent .houseListBox .searchBox {
+  position: relative;
+}
+.tansincontent .houseListBox .searchBox .address {
+  position: absolute;
+  left: 0.73333333rem;
+  top: 0.48rem;
+  z-index: 1;
+  width: 1.33333333rem;
+  padding-right: 0.32rem;
+  height: 0.50666667rem;
+  line-height: 0.50666667rem;
+  background: none;
+  border-right: 1px solid #eaeaea;
+  text-align: center;
+}
+.tansincontent .houseListBox .searchBox .van-search .van-cell {
+  padding-left: 2.26666667rem;
+}
+.tansincontent .houseListBox .searchBox .iconAddre {
+  width: 0.53333333rem;
+  top: 0.4rem;
+  right: 0.53333333rem;
+  position: absolute;
+  z-index: 1;
+}
+.tansincontent .houseListBox .criteria .van-dropdown-menu__title::after {
+  transform: rotate(180deg);
+  border: none;
+  display: block;
+  width: 0.26666667rem;
+  height: 0.10666667rem;
+  background: url(../images/arrow.png) no-repeat;
+  background-size: 100% 100%;
+  top: 0.26666667rem;
+}
+.tansincontent .houseListBox .criteria .van-dropdown-menu__title--active::after {
+  transform: rotate(0deg);
+  margin-top: -0.16rem;
+}
+.tansincontent .houseListBox .criteria .van-dropdown-menu__title:first-child {
+  padding-left: 0.8rem;
+}
+.tansincontent .houseListBox .criteria .van-ellipsis {
+  white-space: normal;
+  font-size: 0.37333333rem;
+  line-height: 0.37333333rem;
+}
+.tansincontent .houseListBox .listBox {
+  background: #f6f6f6;
+  padding-top: 0.24rem;
+  padding-bottom: 0.53333333rem;
+}
+.tansincontent .houseListBox .listBox .van-tabs {
+  margin: 0 auto;
+  width: 8.98666667rem;
+  margin-bottom: 0.26666667rem;
+}
+.tansincontent .houseListBox .listBox .van-tabs__nav {
+  display: -webkit-inline-box;
+  background: none;
+}
+.tansincontent .houseListBox .listBox .van-tabs--line .van-tabs__wrap {
+  height: 0.74666667rem;
+}
+.tansincontent .houseListBox .listBox .van-tabs__line {
+  height: 0;
+}
+.tansincontent .houseListBox .listBox .van-tab {
+  line-height: 0.74666667rem;
+  font-size: 0.32rem;
+  width: 1.33333333rem;
+  margin-right: 0.21333333rem;
+  border-radius: 0.10666667rem;
+  border: 1px solid #d6d6d6;
+}
+.tansincontent .houseListBox .listBox .van-tab--active {
+  color: #fff;
+  border: none;
+  background: #65708c;
+}
+.tansincontent .houseListBox .houseList {
+  display: flex;
+  width: 8.98666667rem;
+  height: 2.45333333rem;
+  border-radius: 0.13333333rem;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 0.26666667rem;
+  box-shadow: 0 0 8px #ccc;
+}
+.tansincontent .houseListBox .houseList .addBox {
+  flex: 2;
+  padding-left: 0.24rem;
+  padding-right: 0.24rem;
+  padding-top: 0.16rem;
+}
+.tansincontent .houseListBox .houseList .addBox h2 {
+  font-size: 0.4rem;
+}
+.tansincontent .houseListBox .houseList .addBox .addI {
+  margin-left: 0.21333333rem;
+  margin-top: -0.08rem;
+  vertical-align: middle;
+  width: 1.33333333rem;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: normal;
+}
+.tansincontent .houseListBox .houseList .addBox span {
+  margin-bottom: 0.13333333rem;
+  overflow: hidden;
+  height: 0.41333333rem;
+  display: block;
+  font-size: 0.24rem;
+  color: #999;
+}
+.tansincontent .houseListBox .houseList .addBox span .addImg {
+  width: 0.28rem;
+  margin-right: 0.13333333rem;
+  vertical-align: middle;
+}
+.tansincontent .houseListBox .houseList .addBox span.have {
+  color: #acaaff;
+  border: 1px solid #acaaff;
+  text-align: center;
+  border-radius: 0.08rem;
+  width: 1.41333333rem;
+  font-size: 0.21333333rem;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  margin-top: 0.10666667rem;
+}
+.tansincontent .houseListBox .houseList .imgBox,
+.tansincontent .houseListBox .houseList .moneyBox {
+  flex: 1;
+}
+.tansincontent .houseListBox .houseList .imgBox img {
+  width: 2.13333333rem;
+  height: 2.24rem;
+  border-top-left-radius: 0.13333333rem;
+  border-bottom-left-radius: 0.13333333rem;
+  height: 100%;
+}
+.tansincontent .houseListBox .houseList .moneyBox {
+  border-left: 1px solid #ebebeb;
+  padding-left: 0.24rem;
+}
+.tansincontent .houseListBox .houseList .moneyBox span {
+  display: block;
+}
+.tansincontent .houseListBox .houseList .moneyBox span:nth-of-type(1) {
+  padding-top: 0.66666667rem;
+  padding-bottom: 0.26666667rem;
+  font-size: 0.26666667rem;
+  color: #65708c;
+  font-weight: bold;
+}
+.tansincontent .houseListBox .houseList .moneyBox span:nth-of-type(1) strong {
+  font-weight: normal;
+  font-size: 0.50666667rem;
+}
+.tansincontent .houseListBox .houseList .moneyBox span:nth-of-type(1) .colorGray {
+  font-weight: normal;
+  color: #999;
+}
+.tansincontent .houseListBox .houseList .moneyBox span:nth-of-type(2) {
+  font-size: 0.26666667rem;
+  color: #ff9e4f ;
+}

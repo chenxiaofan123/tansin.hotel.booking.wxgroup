@@ -1,0 +1,102 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.orderContent {
+  background: #f6f6f6;
+  padding-top: 0.01333333rem;
+}
+.orderContent .orderAll {
+  width: 8.26666667rem;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 0.13333333rem;
+  margin-top: 0.32rem;
+  padding-top: 0.8rem;
+  padding-left: 0.45333333rem;
+  padding-right: 0.45333333rem;
+  padding-bottom: 0.24rem;
+  color: #898989;
+  font-size: 0.32rem;
+}
+.orderContent .orderAll .orderList {
+  padding-bottom: 0.37333333rem;
+  border-bottom: 1px solid #eaeaea;
+}
+.orderContent .orderAll .orderList div {
+  margin-bottom: 0.13333333rem;
+}
+.orderContent .orderAll .orderList div span {
+  color: #ffb075;
+}
+.orderContent .orderAll .orderList div img {
+  width: 0.29333333rem;
+  height: 0.30666667rem;
+  margin-right: 0.13333333rem;
+}
+.orderContent .orderAll .orderList div.orderTitle {
+  padding-bottom: 0.24rem;
+  font-size: 0.37333333rem;
+  color: #404040;
+  margin-bottom: 0.13333333rem;
+}
+.orderContent .orderAll .orderList div.orderTitle .status {
+  color: #ffb075;
+}
+.orderContent .orderAll .orderButton {
+  margin-top: 0.4rem;
+}
+.orderContent .orderAll .orderButton .money {
+  color: #FF9E4F;
+  font-size: 12px;
+  margin-top: 0.13333333rem;
+  font-weight: bold;
+}
+[data-dpr="2"] .orderContent .orderAll .orderButton .money {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .orderContent .orderAll .orderButton .money {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .orderContent .orderAll .orderButton .money {
+  font-size: 33px;
+}
+[data-dpr="3"] .orderContent .orderAll .orderButton .money {
+  font-size: 36px;
+}
+[data-dpr="4"] .orderContent .orderAll .orderButton .money {
+  font-size: 48px;
+}
+.orderContent .orderAll .orderButton .clear {
+  width: 2.4rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  border: 1px solid #4b4c5e;
+  border-radius: 0.06666667rem;
+  text-align: center;
+  color: #4B4C5E;
+  margin-right: 0.26666667rem;
+}
+.orderContent .orderAll .orderButton .goPay {
+  width: 2.4rem;
+  height: 0.74666667rem;
+  line-height: 0.74666667rem;
+  background: linear-gradient(90deg, #4b4c5e, #66718e);
+  border-radius: 0.06666667rem;
+  text-align: center;
+  color: #fff;
+}

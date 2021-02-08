@@ -1,0 +1,104 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.checkInContent{
+    background:rgba(246,246,246,1);
+    height:100%;
+    .px2rem(padding-top,1);
+    .checkTop{
+        background: url(../images/topbg.png) no-repeat;
+        background-size: 100% 100%; 
+        .px2rem(width,750);
+        .px2rem(height,388); 
+        .px2rem(padding-top,1);
+        .topbg{
+            background:rgba(255,255,255,1);
+            box-shadow:0px 4px 20px 0px rgba(111,111,255,0.25);
+            .px2rem(padding-top,60);
+            .px2rem(padding-bottom,80);
+            .px2rem(padding-left,40);
+            .px2rem(padding-right,40);
+            border-radius:5px;
+            .px2rem(width,590);
+            margin: 0 auto;
+            .px2rem(margin-top,40);
+            .topTitle{
+                font-weight:400;
+                .px2px(font-size,44);
+                font-family:Source Han Sans CN;
+                .px2rem(margin-bottom,20);
+            }
+            .topTip{
+                .px2px(font-size,24);
+                color:rgba(137,137,137,1);
+                .px2rem(line-height,40);
+            }
+        }
+    }
+    .imgBg{
+        position: relative;
+        img{
+            .px2rem(width,711);
+            .px2rem(height,182);
+            display:block;
+            margin: 0 auto;
+
+        }
+        .button{
+            background:linear-gradient(90deg,rgba(44,45,66,1),rgba(83,93,120,1));
+            border-radius:5px;
+            .px2rem(width,136);
+            .px2rem(height,56);
+            .px2rem(line-height,56);
+            text-align: center;
+            display: block;
+            color: #fff;
+            position: absolute;
+            right: 32px;
+            top:30px;
+            .px2rem( font-size,24);
+        }
+    }
+   .checkBottom{
+    .px2rem(width,570);
+     padding:25px;
+     margin:0 auto;
+     background:rgba(255,255,255,1);
+     box-shadow:0px 4px 20px 0px rgba(111,111,255,0.25);
+     border-radius:5px;
+     .bottomTitle{
+        .px2rem(font-size,32);
+        font-weight: 500;
+        color:rgba(64,64,64,1);
+     }
+     .checkIcon{
+         .icon{
+            .px2rem(margin-top,60);
+            img{
+                .px2rem(width,90);
+                .px2rem(height,90);
+                .px2rem(margin-right,32);
+            }
+            .iconText{
+                div:nth-child(1){
+                    .px2rem(margin-top,6);
+                    .px2rem(margin-bottom,4);
+                    .px2rem(font-size,28);
+                    font-family:Source Han Sans CN;
+                    font-weight:bold;
+                    color:rgba(64,64,64,1);
+                }
+                div:nth-child(2){
+                    .px2rem(font-size,20);
+                    font-family:Source Han Sans CN;
+                    color:#888888;
+                }
+            }
+         }
+     }
+
+   }
+ 
+}

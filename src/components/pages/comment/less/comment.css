@@ -1,0 +1,170 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+  clear: both;
+}
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+input[type=button] {
+  -webkit-appearance: none;
+  outline: none;
+}
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+html,
+body {
+  background: #F6f6f6 !important;
+}
+.tansincontent {
+  background: #fff;
+}
+.tansincontent .rateConetnt .tipsTitle {
+  padding: 0.26666667rem 0;
+}
+.tansincontent .rateConetnt .tipsTitle .tips {
+  background: linear-gradient(90deg, #ff3434, #ff9069);
+  width: 8.93333333rem;
+  text-align: center;
+  padding: 0.21333333rem 0;
+  font-size: 0.32rem;
+  margin: 0 auto;
+  color: #fff;
+  margin-top: 0.26666667rem;
+}
+.tansincontent .rateConetnt .rateContent {
+  margin: 0 auto;
+  margin-top: 0.98666667rem;
+  background: linear-gradient(90deg, #4b4c5e, #66718e);
+  box-shadow: 0px 4px 20px 0px rgba(48, 48, 48, 0.4);
+  width: 8.93333333rem;
+  height: 4.8rem;
+  border-radius: 0.13333333rem;
+  padding-top: 0.8rem;
+  color: #fff;
+}
+.tansincontent .rateConetnt .rateContent .rateList {
+  width: 7.46666667rem;
+  margin: 0 auto;
+}
+.tansincontent .rateConetnt .rateContent .rateList .fl {
+  line-height: 0.90666667rem;
+  margin-right: 0.4rem;
+}
+.tansincontent .rateConetnt .rateContent .rateList .typeAll {
+  width: 70%;
+  margin-right: 0;
+}
+.tansincontent .rateConetnt .rateContent .rateList .typeAll .typelist .list {
+  font-size: 0.32rem;
+  line-height: 0.66666667rem;
+  padding: 0 0.16rem;
+  background: #f6f6f6;
+  border-radius: 0.13333333rem;
+  float: left;
+  margin-right: 0.16rem;
+  margin-top: 0.13333333rem;
+  border: 1px solid #f6f6f6;
+}
+.tansincontent .rateConetnt .rateContent .rateList .typeAll .typelist .active {
+  font-size: 0.32rem;
+  line-height: 0.66666667rem;
+  padding: 0 0.16rem;
+  border-radius: 0.13333333rem;
+  float: left;
+  margin-right: 0.16rem;
+  margin-top: 0.13333333rem;
+  border: 1px solid #ffd21e;
+  background: #f6f6f6;
+}
+.tansincontent .rateText [class*=van-hairline]::after {
+  border: none;
+}
+.tansincontent .rateText .van-field__body {
+  background: #f6f6f6;
+}
+.tansincontent .rateText .van-field__body textarea {
+  padding: 0.26666667rem;
+  line-height: 0.66666667rem;
+  text-indent: 0.53333333rem;
+}
+.tansincontent .uplod {
+  border-top: 5px solid #F6F6F6;
+  text-align: center;
+  padding: 0.26666667rem;
+  color: #AAABAC;
+  font-size: 0.29333333rem;
+}
+.tansincontent .uplod .uplodText {
+  margin-top: 0.53333333rem;
+}
+.tansincontent .uplod .head .head-img {
+  width: 1.6rem;
+  height: 1.6rem;
+  display: block;
+}
+.tansincontent .button {
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #F6f6f6;
+  background: #fff;
+}
+.tansincontent .button > div:first-child .buttonMoney {
+  color: #FF9E4F;
+  margin-left: 0.4rem;
+  font-size: 0.32rem;
+}
+.tansincontent .button > div:first-child .buttonMoney span {
+  color: #fa4b50;
+}
+.tansincontent .button > div:last-child {
+  width: 4.85333333rem;
+  height: 1.16rem;
+  line-height: 1.16rem;
+  text-align: center;
+  background: linear-gradient(90deg, #4b4c5e, #66718e);
+  box-shadow: 0px 4px 20px 0px rgba(48, 48, 48, 0.4);
+  border-radius: 0.13333333rem;
+  color: #fff;
+  margin-right: 0.53333333rem;
+}
+.tansincontent .checkAll {
+  width: 100px;
+  text-align: center;
+  color: #C4C4C4;
+  border: 1px solid #C4C4C4;
+  border-radius: 0.66666667rem;
+  padding: 0.18666667rem 0;
+  margin: 0.26666667rem auto 0;
+}

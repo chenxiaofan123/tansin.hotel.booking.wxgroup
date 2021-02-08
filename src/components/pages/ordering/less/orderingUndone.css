@@ -1,0 +1,164 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.tansincontent .posi,
+.tansincontent .undoneTop {
+  position: relative;
+}
+.tansincontent .img {
+  display: block;
+  width: 100%;
+}
+.tansincontent .orderingUndone .van-cell__title {
+  color: #818181;
+}
+.tansincontent .orderingUndone .van-cell__value {
+  -webkit-box-flex: 2.5;
+  -webkit-flex: 2.5;
+  flex: 2.5;
+  text-align: left;
+  color: #404040;
+}
+.tansincontent .orderingUndone .topBox {
+  position: absolute;
+  background: #fff;
+  box-shadow: 0 0 15px #ccc;
+  border-radius: 0.10666667rem;
+  width: 8.93333333rem;
+  left: 0.53333333rem;
+  bottom: 0.45333333rem;
+  padding-top: 0.34666667rem;
+}
+.tansincontent .orderingUndone .topBox h2,
+.tansincontent .orderingUndone .topBox p {
+  padding-left: 0.58666667rem;
+  padding-right: 0.58666667rem;
+}
+.tansincontent .orderingUndone .topBox h2 {
+  font-size: 0.4rem;
+  color: #404040;
+}
+.tansincontent .orderingUndone .topBox p {
+  font-size: 0.32rem;
+  color: #898989;
+}
+.tansincontent .orderingUndone .topBox p:nth-of-type(1) {
+  margin-top: 0.13333333rem;
+}
+.tansincontent .orderingUndone .topBox .topMoney {
+  float: right;
+  color: #ff9e4f;
+  margin-top: 0.26666667rem;
+}
+.tansincontent .orderingUndone .topBox .arrowR {
+  color: #ababab ;
+  margin-left: 0.24rem;
+  margin-top: 0.4rem;
+}
+.tansincontent .orderingUndone .topBox .tabList {
+  display: flex;
+  border-top: 1px solid #eaeaea;
+  margin-top: 0.34666667rem;
+}
+.tansincontent .orderingUndone .topBox .tabList li {
+  flex: 1;
+  font-size: 0.34666667rem;
+  text-align: center;
+  color: #818181;
+  line-height: 1.2rem;
+}
+.tansincontent .orderingUndone .topBox .tabList li :nth-of-type(1) {
+  border-right: 1px solid #eaeaea;
+}
+.tansincontent .orderingUndone .topBox .tabList li:nth-of-type(1) {
+  border-right: 1px solid #eaeaea;
+}
+.tansincontent .orderingUndone .topBox .tabList li.current {
+  color: #ff9e4f;
+}
+.tansincontent .orderingUndone .orderDetailOne .choose {
+  position: absolute;
+  left: 7.06666667rem;
+  top: 0.32rem;
+  z-index: 999;
+  background: linear-gradient(to right, #4b4c5e, #66718e);
+  font-size: 0.29333333rem;
+  padding-left: 0.42666667rem;
+  padding-right: 0.42666667rem;
+  height: 0.74666667rem;
+  line-height: 0.74666667rem;
+  color: #fff;
+  border-radius: 0.13333333rem;
+}
+.tansincontent .orderingUndone .orderDetailOne .posi {
+  width: 9.06666667rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 0.24rem;
+  margin-top: 0.34666667rem;
+  padding-bottom: 0.4rem;
+}
+.tansincontent .orderingUndone .orderDetailOne .house {
+  width: 0.45333333rem;
+  position: absolute;
+  left: 0rem;
+  top: 0.21333333rem;
+  z-index: 999;
+}
+.tansincontent .orderingUndone .orderDetailOne .van-cell {
+  padding-top: 0.13333333rem;
+  padding-bottom: 0.13333333rem;
+  font-size: 0.37333333rem;
+}
+.tansincontent .orderingUndone .orderDetailOne .van-cell:not(:last-child)::after {
+  width: 9.06666667rem;
+}
+.tansincontent .orderingUndone .orderDetailOne .posi .van-cell {
+  padding-left: 0rem;
+}
+.tansincontent .orderingUndone .orderDetailOne .posi .van-cell .van-cell__title span {
+  padding-left: 0.6rem;
+  color: #ff9e4f;
+}
+.tansincontent .orderingUndone .orderDetailOne .van-cell:not(:first-child)::after {
+  left: 0;
+  border: none;
+}
+.tansincontent .orderingUndone .orderDetailOne .van-cell__label {
+  font-size: 0.37333333rem;
+}
+.tansincontent .orderingUndone .orderDetailTwo {
+  padding-top: 0.34666667rem;
+  width: 9.06666667rem;
+  margin: 0 auto;
+  margin-top: 0.24rem;
+  border-top: 1px solid #eaeaea;
+}
+.tansincontent .orderingUndone .orderDetailTwo .van-cell {
+  padding: 0rem;
+  padding-top: 0.10666667rem;
+  padding-bottom: 0.10666667rem;
+  font-size: 0.36rem;
+}
+.tansincontent .orderingUndone .orderDetailTwo .van-cell:not(:last-child)::after {
+  left: 0;
+  border: none;
+}
+.tansincontent .orderingUndone .orderDetailTwo .van-cell:last-child {
+  margin-top: 1.17333333rem;
+}

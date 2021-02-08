@@ -1,0 +1,150 @@
+@import "./../../../../assets/less/config.less";
+@import "./../../../../assets/less/method.less";
+html, body{
+    background: #F6f6f6;
+}
+.tansincontent{
+    background: #fff;
+    .rateConetnt{
+        .tipsTitle{
+            padding:10/@width 0;
+            // border-bottom: 1px solid #F6f6f6;
+            .tips{
+                background:linear-gradient(90deg,rgba(255,52,52,1),rgba(255,144,105,1));
+                .px2rem(width,670);
+                text-align: center;
+                padding:8/@width 0;
+                font-size: @fontsize12;
+                margin: 0 auto;
+                color: #fff;
+                margin-top:10/@width;
+            }
+        }
+        .rateContent{
+            margin: 0 auto;
+            .px2rem(margin-top,74);
+            background:linear-gradient(90deg,rgba(75,76,94,1),rgba(102,113,142,1));
+            box-shadow:0px 4px 20px 0px rgba(48,48,48,0.4);
+            .px2rem(width,670);
+            .px2rem(height,360);
+            .px2rem(border-radius,10);
+            .px2rem(padding-top,60);
+            color: #fff;
+            .rateList{
+                .px2rem(width,560);
+                margin:0 auto;
+                .fl{
+                    line-height: 34/@width;
+                    margin-right: 15/@width;
+                }
+                .typeAll{
+                    width: 70%;
+                    margin-right: 0;
+                    .typelist{
+                        .list{
+                            font-size: @fontsize12;
+                            line-height: 25/@width;
+                            padding:0 6/@width;
+                            background: #f6f6f6;
+                            border-radius: 5/@width;
+                            float: left;
+                            margin-right: 6/@width;
+                            margin-top:5/@width;
+                            border: 1px solid #f6f6f6
+                        }
+                        .active{
+                            font-size: @fontsize12;
+                            line-height: 25/@width;
+                            padding:0 6/@width;
+                            background: #f6f6f6;
+                            border-radius: 5/@width;
+                            float: left;
+                            margin-right: 6/@width;
+                            margin-top:5/@width;
+                            border: 1px solid #ffd21e;
+                            background: #f6f6f6;
+                        }
+                    }
+                 
+                }   
+            }
+        }
+    }
+    .rateText{
+        [class*=van-hairline]::after{
+            border:none;
+        }
+        .van-field__body{
+            background:rgba(246,246,246,1);
+            textarea{
+                padding: 10/@width;
+                line-height: 25/@width;
+                text-indent: 20/@width;
+            }
+           
+        }
+    }
+    .uplod{
+        border-top:5px solid #F6F6F6;
+        text-align: center;
+        padding: 10/@width;
+        color: #AAABAC;
+        .px2rem(font-size,22);
+        .uplodText{
+            margin-top: 20/@width;
+        }
+        .head{
+
+            .head-img{
+                width: 60/@width;
+                height: 60/@width;
+                display: block;
+            }
+        }
+        
+    }
+    .button{
+        height: 50/@width;
+        line-height: 50/@width;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-top: 1px solid #F6f6f6;
+        background: #fff;
+        >div{
+            &:first-child{
+                .buttonMoney{
+                    span{
+                        color: @redcolor;
+                    }
+                    color:#FF9E4F;
+                    margin-left: 15/@width;
+                    font-size: @fontsize12;
+                }
+            }
+            &:last-child{
+                .px2rem(width,364);
+                .px2rem(height,87);
+                .px2rem(line-height,87);
+                text-align: center;
+                background:linear-gradient(90deg,rgba(75,76,94,1),rgba(102,113,142,1));
+                box-shadow:0px 4px 20px 0px rgba(48,48,48,0.4);
+                .px2rem(border-radius,10);
+                color: #fff;
+                .px2rem(margin-right,40);
+            }
+        }
+    }
+    .checkAll{
+        width: 100px;
+        text-align: center;
+        color: #C4C4C4;
+        border: 1px solid #C4C4C4;
+        border-radius: 25/@width;
+        padding: 7/@width 0;
+        margin: 10/@width auto 0;
+    }
+    
+  
+}

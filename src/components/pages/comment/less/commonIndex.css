@@ -1,0 +1,189 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.commonContent .commonTop {
+  background: linear-gradient(90deg, #4b4c5e, #66718e);
+  box-shadow: 0px 4px 20px 0px rgba(48, 48, 48, 0.4);
+  width: 10rem;
+  height: 2.66666667rem;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  padding-top: 27px;
+}
+[data-dpr="2"] .commonContent .commonTop {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .commonContent .commonTop {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .commonContent .commonTop {
+  font-size: 44px;
+}
+[data-dpr="3"] .commonContent .commonTop {
+  font-size: 48px;
+}
+[data-dpr="4"] .commonContent .commonTop {
+  font-size: 64px;
+}
+[data-dpr="2"] .commonContent .commonTop {
+  padding-top: 54px;
+}
+[data-dpr="2.5"] .commonContent .commonTop {
+  padding-top: 68px;
+}
+[data-dpr="2.75"] .commonContent .commonTop {
+  padding-top: 74px;
+}
+[data-dpr="3"] .commonContent .commonTop {
+  padding-top: 81px;
+}
+[data-dpr="4"] .commonContent .commonTop {
+  padding-top: 108px;
+}
+.commonContent .commonTop .rate {
+  margin-bottom: 0.13333333rem;
+}
+.commonContent .commonTop .allRate {
+  margin-top: 0.13333333rem;
+}
+.commonContent .commonPart {
+  width: 8.96rem;
+  margin: 0 auto;
+  margin-top: 0.88rem;
+}
+.commonContent .commonPart .commonTitle {
+  color: #555A70;
+  width: 2.01333333rem;
+  border-bottom: 1px solid #555A70;
+  padding-bottom: 0.21333333rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 0.53333333rem;
+}
+.commonContent .commonPart .commonTab {
+  margin-bottom: 0.8rem;
+}
+.commonContent .commonPart .commonTab li {
+  padding-top: 0.16rem;
+  padding-bottom: 0.16rem;
+  padding-left: 0.18666667rem;
+  padding-right: 0.18666667rem;
+  color: #898989;
+  font-size: 12px;
+  border-radius: 0.13333333rem;
+  margin-right: 0.05333333rem;
+  margin-top: 0.30666667rem;
+  background: #efefff;
+  float: left;
+}
+[data-dpr="2"] .commonContent .commonPart .commonTab li {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .commonContent .commonPart .commonTab li {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .commonContent .commonPart .commonTab li {
+  font-size: 33px;
+}
+[data-dpr="3"] .commonContent .commonPart .commonTab li {
+  font-size: 36px;
+}
+[data-dpr="4"] .commonContent .commonPart .commonTab li {
+  font-size: 48px;
+}
+.commonContent .commonPart .commonList .listDiv {
+  border-top: 1px solid #e9e9e9;
+  padding-top: 0.53333333rem;
+  padding-bottom: 0.53333333rem;
+}
+.commonContent .commonPart .commonList .listDiv .listText {
+  color: #898989;
+  font-size: 12px;
+}
+[data-dpr="2"] .commonContent .commonPart .commonList .listDiv .listText {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .commonContent .commonPart .commonList .listDiv .listText {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .commonContent .commonPart .commonList .listDiv .listText {
+  font-size: 33px;
+}
+[data-dpr="3"] .commonContent .commonPart .commonList .listDiv .listText {
+  font-size: 36px;
+}
+[data-dpr="4"] .commonContent .commonPart .commonList .listDiv .listText {
+  font-size: 48px;
+}
+.commonContent .commonPart .commonList .listDiv .listDate {
+  color: #404040;
+  font-size: 12px;
+  margin-bottom: 0.26666667rem;
+}
+[data-dpr="2"] .commonContent .commonPart .commonList .listDiv .listDate {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .commonContent .commonPart .commonList .listDiv .listDate {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .commonContent .commonPart .commonList .listDiv .listDate {
+  font-size: 33px;
+}
+[data-dpr="3"] .commonContent .commonPart .commonList .listDiv .listDate {
+  font-size: 36px;
+}
+[data-dpr="4"] .commonContent .commonPart .commonList .listDiv .listDate {
+  font-size: 48px;
+}
+.commonContent .commonPart .commonList .listDiv .listButton {
+  border: 1px solid #ffb075;
+  text-align: center;
+  color: #ffb075;
+  border-radius: 0.08rem;
+  margin-top: 0.18666667rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-top: 0.08rem;
+  padding-bottom: 0.08rem;
+  font-size: 12px;
+}
+[data-dpr="2"] .commonContent .commonPart .commonList .listDiv .listButton {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .commonContent .commonPart .commonList .listDiv .listButton {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .commonContent .commonPart .commonList .listDiv .listButton {
+  font-size: 33px;
+}
+[data-dpr="3"] .commonContent .commonPart .commonList .listDiv .listButton {
+  font-size: 36px;
+}
+[data-dpr="4"] .commonContent .commonPart .commonList .listDiv .listButton {
+  font-size: 48px;
+}
+.commonContent .commonPart .commonList .checkAll {
+  text-align: center;
+  color: #C4C4C4;
+}
+.commonContent .commonPart .commonList .replayDiv {
+  margin: 5px;
+  font: 2pt;
+}

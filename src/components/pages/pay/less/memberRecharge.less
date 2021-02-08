@@ -1,0 +1,86 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.tansincontent{
+    .basePosi(@l:0,@t:0){
+        position: absolute;
+        .px2rem(left,@l);
+        .px2rem(top,@t);
+        z-index: 1;
+    }
+    .payPassword{
+        .title{
+            text-align: center;
+            color:#4D4F62;
+            .px2rem(line-height,104);
+            .px2px(font-size,36);
+        }
+        .card{
+            .px2rem(width,680);
+            .px2rem(height,300);
+            .backgroundImg('./../images/chuzhi.png');
+            margin: 0 auto;     
+            .px2rem(padding-top,60);
+            color:#fff; 
+            div{
+                .px2rem(margin-left,80);
+                .px2rem(margin-bottom,18);
+            } 
+        }
+        .status{
+            .px2rem(margin-top,50);
+            .px2rem(height,100);
+            .px2rem(line-height,100);
+            .px2rem(width,680);
+            color: #898989;
+            margin: 0 auto;   
+            text-align: center;
+            border-bottom: 1px solid #898989
+        }
+        .payBottom{
+            background: #f6f6f6;
+            .px2rem(padding-top,20);
+            .px2rem(padding-bottom,60);
+            .cellBox{
+                position: relative;
+                .iconP{
+                    .px2rem(width,36);
+                    .basePosi(40,42)
+                }
+                .radioP{
+                    .basePosi(670,40)
+                }
+                .van-cell{
+                    .px2rem(margin-bottom,20);
+                    .px2rem(padding-left,94);
+                    .px2rem(padding-top,36);
+                    .px2rem(padding-bottom,36);
+                }
+                .van-cell__value--alone{
+                    .px2rem(font-size,30);
+                    color: #9c9c9c;
+                }
+                .van-radio__icon .van-icon{
+                    border: none;
+                    background: #65708c;
+                }
+            }
+        }
+        .submit{
+            background:linear-gradient(to right,#4b4c5e,#66718e);
+            .px2rem(width,660);
+            .px2rem(padding-left,120);
+            .px2rem(padding-right,120);
+            .px2rem(border-radius,90);
+            color: #fff;
+            margin: 0 auto;
+            .px2rem(margin-top,64);
+            display: block;  
+        }
+
+    
+    }
+    
+}

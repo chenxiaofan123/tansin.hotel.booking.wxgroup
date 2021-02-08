@@ -1,0 +1,82 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.myContent {
+  background: #f6f6f6;
+  height: 100%;
+  padding-top: 0.01333333rem;
+}
+.myContent .inputContent {
+  margin-top: 0.33333333rem;
+  height: 1.41333333rem;
+  line-height: 1.41333333rem;
+  background: #fff;
+  padding-left: 0.50666667rem;
+}
+.myContent .inputContent .infl {
+  width: 20%;
+}
+.myContent .inputContent .infr {
+  width: 67%;
+}
+.myContent .inputContent .infr .name {
+  width: 100%;
+  height: 1.41333333rem;
+  line-height: 1.41333333rem;
+  border: none;
+}
+.myContent .tip {
+  margin-top: 0.50666667rem;
+  margin-bottom: 1.18666667rem;
+  font-size: 12px;
+  color: #898989;
+}
+[data-dpr="2"] .myContent .tip {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .myContent .tip {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .myContent .tip {
+  font-size: 33px;
+}
+[data-dpr="3"] .myContent .tip {
+  font-size: 36px;
+}
+[data-dpr="4"] .myContent .tip {
+  font-size: 48px;
+}
+.myContent .tip img {
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.16rem;
+  display: block;
+  float: left;
+  margin-left: 0.50666667rem;
+}
+.myContent .button {
+  width: 8.93333333rem;
+  height: 1.04rem;
+  line-height: 1.04rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(90deg, #4b4c5e, #66718e);
+  box-shadow: 0px 4px 20px 0px rgba(48, 48, 48, 0.4);
+  border-radius: 0.52rem;
+  margin: 0 auto;
+}

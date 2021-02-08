@@ -1,0 +1,68 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+
+.checkInContent{
+    background:rgba(246,246,246,1);
+    height: 100%;
+    .orderForm{
+        padding: 0 10px ;
+        margin-bottom: 10px;
+       }
+       .wightbg{
+        background: #fff;
+        .tab{
+            height: 44px;
+            line-height: 44px;
+            .title{
+                .px2rem(padding-left,30);
+            }
+            .button{
+                .px2rem(padding-right,30);
+                div{
+                    font-size:12px;
+                    .px2rem(width,229);
+                    .px2rem(height,58);
+                    .px2rem(line-height,58);
+                    .px2rem(margin-top,16);
+                    .px2rem(margin-right,10);
+                    border:1px solid rgba(143,143,143,1);
+                    .px2rem(border-radius,40);
+                    text-align: center;
+                    color:rgba(64,64,64,1);
+                }
+                div.active{
+                    color:rgba(255,255,255,1);
+                    background:rgba(101,112,140,1);
+                }
+
+            }
+        }
+       }
+       .van-actionsheet{
+           height: 250px !important;
+       }
+       .van-cell:not(:last-child)::after{
+           border-bottom:none !important;
+       }
+       .shuihao{
+        .px2rem(margin-top,20);
+        .px2rem(margin-bottom,20);
+       }
+       .footerBtn{
+        .px2rem(width,670);
+        .px2rem(height,78);
+        .px2rem(line-height,78);
+        text-align:center;
+        color: #fff;
+        background:linear-gradient(90deg,rgba(44,45,66,1),rgba(83,93,120,1));
+        border:1px solid rgba(184,184,222,1);
+        .px2rem(border-radius,34);
+        margin: 0 auto;
+        .px2rem(margin-top,140);
+       
+    }
+
+}

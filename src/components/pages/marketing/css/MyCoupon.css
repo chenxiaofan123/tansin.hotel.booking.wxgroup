@@ -1,0 +1,240 @@
+@charset "UTF-8";
+.page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fffffb;
+}
+
+/* 优惠券tab */
+.coupon-tab {
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* #ifdef H5 */
+  top: 88rpx;
+  /* #endif */
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100rpx;
+  background-color: #ffffff;
+}
+.coupon-tab .tab {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 100%;
+}
+.coupon-tab .tab text {
+  font-size: 26rpx;
+  color: #555555;
+}
+.coupon-tab .action text {
+  color: #222222;
+}
+.coupon-tab .action .line {
+  position: absolute;
+  left: 50%;
+  bottom: 10rpx;
+  width: 30%;
+  height: 6rpx;
+  background: linear-gradient(to right, #fe3b0f, #f6f6f6);
+  transform: translate(-50%, 0);
+}
+
+/* 优惠券 */
+.coupon-list {
+  padding: 20rpx 4%;
+  margin: 120rpx auto 0;
+  background-color: #ffffff;
+}
+.coupon-list .list {
+  position: relative;
+  width: 100%;
+  min-height: 200rpx;
+  box-shadow: 0 0 14rpx rgba(0, 0, 0, 0.1);
+  border-radius: 6rpx;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+}
+.coupon-list .list .list-data {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 200rpx;
+}
+.coupon-list .list .list-data .coupon-price {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+  background-color: #fe3b0f;
+}
+.coupon-list .list .list-data .coupon-price .discounts {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+.coupon-list .list .list-data .coupon-price .discounts .min {
+  color: #ffffff;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.coupon-list .list .list-data .coupon-price .discounts .max {
+  font-size: 48rpx;
+  color: #ffffff;
+  font-weight: bold;
+}
+.coupon-list .list .list-data .coupon-price .full-reduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60rpx;
+  
+}
+.coupon-list .list .list-data .coupon-price .full-reduction text {
+  font-size: 24rpx;
+  color: #ffffff;
+}
+.coupon-list .list .list-data .coupon-price .jag {
+  position: absolute;
+  top: 0;
+  left: -6rpx;
+  width: 6px;
+  height: 100%;
+  background-size: 10px 6px;
+  background-color: #fff;
+  background-position: 100% 35%;
+  background-image: linear-gradient(-45deg, #fe3b0f 25%, transparent 25%, transparent), linear-gradient(-135deg, #fe3b0f 25%, transparent 25%, transparent), linear-gradient(-45deg, transparent 75%, #fe3b0f 75%), linear-gradient(-135deg, transparent 75%, #fe3b0f 75%);
+}
+.coupon-list .list .list-data .coupon-info {
+  width: 70%;
+  height: 90%;
+  padding: 0 4%;
+}
+.coupon-list .list .list-data .coupon-info .info-title {
+  display: flex;
+  width: 100%;
+  height: 60rpx;
+}
+.coupon-list .list .list-data .coupon-info .info-title .tag {
+  margin-right: 10rpx;
+}
+.coupon-list .list .list-data .coupon-info .info-title .tag text {
+  padding: 4rpx 16rpx;
+  color: #ffffff;
+  background-color: #fe3b0f;
+  font-size: 24rpx;
+  border-radius: 40rpx;
+}
+.coupon-list .list .list-data .coupon-info .info-title .title text {
+  font-size: 24rpx;
+  color: #212121;
+}
+.coupon-list .list .list-data .coupon-info .date-get {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80rpx;
+  border-bottom: 2rpx dashed #eeeeee;
+}
+.coupon-list .list .list-data .coupon-info .date-get .date {
+  display: flex;
+  align-items: center;
+}
+.coupon-list .list .list-data .coupon-info .date-get .date text {
+  font-size: 24rpx;
+  color: #555555;
+}
+.coupon-list .list .list-data .coupon-info .date-get .get text {
+  padding: 10rpx 20rpx;
+  background-color: #fe3b0f;
+  color: #ffffff;
+  font-size: 24rpx;
+  border-radius: 100rpx;
+}
+.coupon-list .list .list-data .coupon-info .date-get .get .use {
+  background-color: transparent;
+  border: 1px solid #fe3b0f;
+  color: #fe3b0f;
+}
+.coupon-list .list .list-data .coupon-info .describe-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40rpx;
+}
+.coupon-list .list .list-data .coupon-info .describe-title text {
+  color: #555555;
+  font-size: 24rpx;
+}
+.coupon-list .list .list-data .coupon-info .describe-title .more {
+  transform: rotate(90deg);
+}
+.coupon-list .list .coupon-lose .coupon-price {
+  background-color: #c0c0c0;
+}
+.coupon-list .list .coupon-lose .coupon-price .jag {
+  position: absolute;
+  top: 0;
+  left: -6rpx;
+  width: 6px;
+  height: 100%;
+  background-size: 10px 6px;
+  background-color: #fff;
+  background-position: 100% 35%;
+  background-image: linear-gradient(-45deg, #c0c0c0 25%, transparent 25%, transparent), linear-gradient(-135deg, #c0c0c0 25%, transparent 25%, transparent), linear-gradient(-45deg, transparent 75%, #c0c0c0 75%), linear-gradient(-135deg, transparent 75%, #c0c0c0 75%);
+}
+.coupon-list .list .coupon-lose .coupon-info .info-title .tag text {
+  background-color: #c0c0c0;
+}
+.coupon-list .list .coupon-lose .coupon-info .info-title .title text {
+  color: #c0c0c0;
+}
+.coupon-list .list .coupon-lose .coupon-info .date-get .date text {
+  color: #c0c0c0;
+}
+.coupon-list .list .describe {
+  display: flex;
+  align-items: center;
+  padding: 0 4%;
+  height: 60rpx;
+  background-color: #FFFFFF;
+  box-shadow: 0 -10rpx 10rpx #F5F5F5;
+}
+.coupon-list .list .describe text {
+  color: #CCCCCC;
+  font-size: 24rpx;
+}
+.coupon-list .list .use-status {
+  position: absolute;
+  right: -20rpx;
+  top: -25rpx;
+  z-index: 10;
+  width: 100rpx;
+  height: 100rpx;
+  border: 2rpx solid #c0c0c0;
+  border-radius: 100%;
+}
+.coupon-list .list .use-status text {
+  display: inline-block;
+  color: #c0c0c0;
+  font-size: 24rpx;
+  transform: rotate(45deg);
+  margin-top: 40rpx;
+}
+
+/*# sourceMappingURL=MyCoupon.css.map */

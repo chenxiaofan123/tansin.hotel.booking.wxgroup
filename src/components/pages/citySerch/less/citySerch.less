@@ -1,0 +1,87 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.tansincontent{
+  .serchContent{
+      .backgroundImg('./../images/bg2.png');
+      .px2rem(width,750);
+      .px2rem(height,227);
+      .px2rem(padding-top,40);
+      .serchInput{
+        .px2rem(width,668);
+        .px2rem(height,88);
+        .px2rem(line-height,88);
+        margin:0 auto;
+       
+        position: relative;
+        input{
+            width: 100%;
+            text-indent: 15px;
+            border: none;
+            .px2rem( border-radius,44);
+            background:rgba(255,255,255,1);
+            box-shadow:0px 4px 20px 0px rgba(101,112,140,0.75);
+            
+        }
+        img{
+            .px2rem(width,28);
+            .px2rem(height,28);
+            position: absolute;
+            right: 15px;
+            top:14px;
+        }
+      }
+  }
+  .tabContent{
+    .px2rem(margin-top,-100);
+    [class*=van-hairline]::after{
+        border: none
+    }
+    .van-tab{
+        color: #3A3C3B
+    }
+    .van-tabs__nav{
+        background:none;
+        color: #3A3C3B;
+        .px2px(font-size,28);
+    }
+    .van-tabs__line{
+        background:rgba(101,112,140,1);
+    }
+    .hotcity{
+        .px2rem(padding-left,30);
+        .px2rem(padding-right,30);
+        .px2rem(padding-top,30);
+        border-bottom:5px solid rgba(235, 235, 235, 1);
+        .hotTitle{
+            .px2px(font-size,24);
+            font-family:Source Han Sans CN;
+            font-weight:400;
+            color:rgba(189,189,189,1);
+            .px2rem(margin-bottom,30);
+        }
+        .hotcityButtonAll{
+            .hotBtn{
+                .px2rem(width,100);
+                .px2rem(height,58);
+               
+                .px2rem(border-radius,8);
+                border:1px solid rgba(235, 235, 235, 1);
+                box-sizing: border-box;
+                text-align: center;
+                .px2rem(line-height,58);
+                float: left;
+                .px2rem(margin-bottom,30);
+                .px2rem(margin-right,30);
+            }
+            .active{
+                background:rgba(101,112,140,1);
+                color: #fff;
+            }
+        }
+    }
+  }
+    
+}

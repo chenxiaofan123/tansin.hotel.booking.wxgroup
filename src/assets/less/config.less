@@ -1,0 +1,51 @@
+@width: 37.5rem;
+@fontsize15: 15/@width;
+@fontsize20: 20/@width;
+@fontsize18: 18/@width;
+@fontsize16: 16/@width;
+@fontsize14: 14/@width;
+@fontsize12: 12/@width;
+@fontsize10: 10/@width;
+@redcolor: #fa4b50;
+@grayColor:#727272;
+@padding15: 15/@width;
+@padding20:20/@width;
+@fontColor: #333333;
+@bgc: #fff;
+@border:1px solid #f8f8f8;
+@placeholderColor: #D5D5D5;
+
+//清除浮动
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+
+//ios 点击 去除阴影
+* {
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    -webkit-tap-highlight-color: transparent;
+}
+input[type=button]{
+    -webkit-appearance:none;
+    outline:none
+}
+
+.tansincontent{
+    // padding-top:46/@width;
+   // padding-bottom: 50/@width
+}

@@ -1,0 +1,110 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.chooseContent {
+  background: #f6f6f6;
+  height: 100%;
+  padding-top: 0.01333333rem;
+}
+.chooseContent .chooseList {
+  width: 9.2rem;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 0.13333333rem;
+  margin-top: 0.32rem;
+}
+.chooseContent .chooseList .choosefl .img {
+  width: 2.13333333rem;
+  height: 2.48rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.chooseContent .chooseList .choosefl .roomText {
+  float: left;
+  margin-left: 0.26666667rem;
+  margin-top: 0.70666667rem;
+  font-size: 15px;
+  color: #404040;
+}
+[data-dpr="2"] .chooseContent .chooseList .choosefl .roomText {
+  font-size: 30px;
+}
+[data-dpr="2.5"] .chooseContent .chooseList .choosefl .roomText {
+  font-size: 38px;
+}
+[data-dpr="2.75"] .chooseContent .chooseList .choosefl .roomText {
+  font-size: 41px;
+}
+[data-dpr="3"] .chooseContent .chooseList .choosefl .roomText {
+  font-size: 45px;
+}
+[data-dpr="4"] .chooseContent .chooseList .choosefl .roomText {
+  font-size: 60px;
+}
+.chooseContent .chooseList .choosefl .roomText div:nth-child(2) {
+  margin-top: 0.26666667rem;
+  font-size: 10px;
+  color: #999999;
+}
+[data-dpr="2"] .chooseContent .chooseList .choosefl .roomText div:nth-child(2) {
+  font-size: 20px;
+}
+[data-dpr="2.5"] .chooseContent .chooseList .choosefl .roomText div:nth-child(2) {
+  font-size: 25px;
+}
+[data-dpr="2.75"] .chooseContent .chooseList .choosefl .roomText div:nth-child(2) {
+  font-size: 28px;
+}
+[data-dpr="3"] .chooseContent .chooseList .choosefl .roomText div:nth-child(2) {
+  font-size: 30px;
+}
+[data-dpr="4"] .chooseContent .chooseList .choosefl .roomText div:nth-child(2) {
+  font-size: 40px;
+}
+.chooseContent .chooseList .choosefr {
+  height: 2.48rem;
+  width: 1.92rem;
+  border-left: 1px solid #ebebeb;
+}
+.chooseContent .chooseList .choosefr .chooseBtn {
+  height: 0.90666667rem;
+  width: 1.61333333rem;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 0.90666667rem;
+  background: #65708c;
+  margin-top: 0.82666667rem;
+  margin-left: 0.16rem;
+  border-radius: 0.13333333rem;
+}
+[data-dpr="2"] .chooseContent .chooseList .choosefr .chooseBtn {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .chooseContent .chooseList .choosefr .chooseBtn {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .chooseContent .chooseList .choosefr .chooseBtn {
+  font-size: 33px;
+}
+[data-dpr="3"] .chooseContent .chooseList .choosefr .chooseBtn {
+  font-size: 36px;
+}
+[data-dpr="4"] .chooseContent .chooseList .choosefr .chooseBtn {
+  font-size: 48px;
+}

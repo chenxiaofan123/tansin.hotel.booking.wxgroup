@@ -1,0 +1,289 @@
+.detailCon{
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.topImg{
+    height: 190px;
+    text-align: center;
+    overflow: hidden;
+}
+.topImg img{
+    width: 100%;
+    height: auto;
+}
+.bigMoney{
+    position: relative;
+    z-index: 1;
+    margin-top: -11.5%;
+    float: right;
+    padding: 2px 14px;
+    background: #FF0000;
+    border-radius: 27px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 15px;
+}
+.bigMoney span{
+    font-size: 24px;
+}
+.bigMoney div{
+    display: inline;
+    color: rgb(238, 238, 238);
+    font-size: 12px;
+    text-decoration: line-through;
+    margin-left: 4px;
+}
+.downCon{
+    position: relative;
+    /* z-index: 1; */
+    margin-top: -7%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(255, 166, 166, 0.2);
+    border-radius: 10px;
+    padding: 25px 15px;
+    margin-bottom: 70px;
+}
+.detailTitle {
+    font-size: 17px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 18px;
+}
+.detailTitle img{
+    width: 16px;
+    position: relative;
+    top: 2px;
+}
+.downCon ul li{
+    margin-top: 12px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    color: #666666;
+    font-size: 13px;
+}
+.downCon ul li div{
+    display: inline-block;
+    max-width: 95%;
+}
+.downCon ul li img{
+    width: 11px;
+    height: 13px;
+    margin: 3px 5px 0 0;
+}
+.downCon ul li .red,.handleBtns .money span{
+    color: #FF0000;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+.downCon ul li .huy{
+    text-decoration: line-through;
+}
+/* .downCon ul li .rules{
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    display:-ms-flexbox;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+} */
+.more{
+    color: #272727;
+    float: right;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.el-icon-arrow-up,.el-icon-arrow-down{
+    display: inline-block;
+    width: 10px;
+    height: 5px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin: 0 0 0 2px;
+    top: -2px;
+}
+.el-icon-arrow-up{
+  background-image: url(../images/el-icon-arrow-up.png);
+}
+.el-icon-arrow-down{
+  background-image: url(../images/el-icon-arrow-down.png);
+}
+
+.rules{
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  display:-ms-flexbox;
+  -webkit-box-orient: vertical;
+  position: relative;
+}
+.rules.fold{
+  -webkit-line-clamp: 2;
+}
+.rules.unfold{
+  -webkit-line-clamp: 100;
+}
+.handleBtns{
+    position: fixed;
+    width: 94%;
+    bottom: 0;
+    left: 0;
+    background-color: #f8f8f8;
+    padding: 10px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #efefef;
+}
+.handleBtns button,.handleBtns .van-count-down{
+    float: right;
+    width: 44%;
+    color: #fff;
+    font-size: 15px;
+    height: 36px;
+    background: #FF0000;
+    border-radius: 32px;
+    border: 0;
+}
+.handleBtns .van-count-down{
+    text-align: center;
+    line-height: 36px;
+    font-size: 19px;
+    background: #ff2929;
+}
+.handleBtns .money span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.popDiv .title{
+    margin-bottom: 10px !important;
+}
+.costPop ul{
+    display: flex;
+    justify-content: space-between;
+}
+.costPop li{
+    padding: 0 !important;
+    width: 33.33%;
+    text-align: center;
+    margin: 0 0 10px !important;
+}
+.popDiv .detailData li span{
+    font-size: 14px;
+    color: #333333;
+}
+.detailData li{
+    padding: 10px 0 !important;
+    margin: 0 !important;
+    border-top: 1px solid #f3f3f3;
+}
+.popDiv .table .detailData li span{
+    color: #666;
+    font-size: 10px;
+}
+.totalPrice{
+    border-top: 1px solid #f3f3f3;
+    padding: 10px 10px 0;
+}
+.totalPrice span{
+    color: #ff0000;
+    font-size: 15px;
+}
+
+/*后加css*/
+.van-field__control{
+    text-align: right !important;
+}
+.downCon /deep/ .van-cell::after{
+    right: 0;
+    left: 0;
+}
+.timePick{
+    position: relative;
+}
+.timePick .timeDays{
+    position: absolute;
+    right: 7%;
+    top: 13px;
+    color: #919191;
+}
+.timePick .van-cell__value{
+    position: absolute;
+    right: 18%;
+}
+.posi {
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    border-top: 1px solid #efefef;
+}
+.posi .van-cell{
+    float: left;
+}
+.posi .acount{
+    float: right;
+    position: absolute;
+    right: 7px;
+    top: 8px;
+}
+.van-field__label{
+    color: #333333;
+}
+.vantTime{
+    justify-content: space-between;
+}
+.detailCon .fr .icon img{
+    width: 8px;
+    position: absolute;
+    margin: 5px 2px 0 5px;
+}
+.detailPop{
+    position: absolute;
+    right: 48%;
+}
+/**日历*/
+.detailCon .van-popup--bottom.van-popup--round{
+    border-radius: 0 !important;
+}
+.detailCon .van-calendar__popup.van-popup--bottom,.detailCon .van-calendar__popup.van-popup--top{
+    height: 100% !important;
+}
+.detailCon .van-cell__right-icon{
+    right: -10px;
+    margin-left: 0;
+}
+.detailCon{
+    min-height: 100vh;
+}
+.maskUp{
+    position: absolute;
+    z-index: 22;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../images/mask.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maskUp img{
+    max-width: 100%;
+}
+.markHide{
+    /* border: 1px solid #fff; */
+    width: 130px;
+    height: 80px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 13%;
+    left: 33%;
+}

@@ -1,0 +1,290 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.tansincontent {
+  padding-bottom: 0 !important;
+}
+.tansincontent [class*=van-hairline]::after {
+  border: none;
+}
+.tansincontent .couponO,
+.tansincontent .couponOYes,
+.tansincontent .acount {
+  position: absolute;
+}
+.tansincontent .ordering {
+  padding-bottom: 2.4rem;
+}
+.tansincontent .ordering .topBox {
+  background: #f6f6f6;
+  padding-left: 0.48rem;
+  padding-right: 0.48rem;
+  padding-top: 0.45333333rem;
+  padding-bottom: 0.45333333rem;
+}
+.tansincontent .ordering .topBox .title {
+  padding-bottom: 0.13333333rem;
+  margin-bottom: 0.26666667rem;
+}
+.tansincontent .ordering .topBox div {
+  margin-bottom: 0.26666667rem;
+}
+.tansincontent .ordering .topBox div:last-child {
+  margin-bottom: 0rem;
+}
+.tansincontent .ordering .topBox span {
+  font-size: 0.34666667rem;
+  display: inline-block;
+  padding-bottom: 0.05333333rem;
+  color: #898989;
+}
+.tansincontent .ordering .topBox .icon1 img {
+  margin-right: 0.21333333rem;
+}
+.tansincontent .ordering .topBox .all {
+  float: left;
+}
+.tansincontent .ordering .topBox .alc {
+  margin-left: 1.14666667rem;
+}
+.tansincontent .ordering .topBox .alr {
+  float: right;
+}
+.tansincontent .ordering .tip {
+  padding-left: 0.53333333rem;
+  font-size: 0.32rem;
+  height: 0.85333333rem;
+  line-height: 0.85333333rem;
+  color: #ffad6f;
+  background: linear-gradient(to right, #f7ece3, #f6f5f4);
+}
+.tansincontent .ordering .tip .van-icon {
+  padding-top: 0.21333333rem;
+  padding-right: 0.16rem;
+  display: block;
+  float: left;
+}
+.tansincontent .ordering .acount {
+  right: 0rem;
+  top: 0.26666667rem;
+  font-size: 0.37333333rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  background: #ededef;
+  border: 1px solid #a5a5ae;
+  border-radius: 0.13333333rem;
+}
+.tansincontent .ordering .acount li {
+  float: left;
+  vertical-align: middle;
+  padding-left: 0.46666667rem;
+  padding-right: 0.46666667rem;
+}
+.tansincontent .ordering .acount li .substruct {
+  width: 0.32rem;
+  height: 0.04rem;
+  margin-top: 0.37333333rem;
+  display: block;
+  background: #9c9ca6;
+}
+.tansincontent .ordering .acount li.first,
+.tansincontent .ordering .acount li.last {
+  padding-left: 0.16rem;
+  padding-right: 0.16rem;
+}
+.tansincontent .ordering .acount .center,
+.tansincontent .ordering .acount .last {
+  border-left: 1px solid #a5a5ae;
+}
+.tansincontent .ordering .acount .last {
+  color: #9c9ca6;
+}
+.tansincontent .ordering .acount .last .van-icon {
+  padding-top: 0.18666667rem;
+}
+.tansincontent .ordering .van-cell {
+  padding-top: 0.37333333rem;
+  padding-bottom: 0.37333333rem;
+}
+.tansincontent .ordering .van-cell:not(:last-child)::after {
+  left: 0;
+}
+.tansincontent .ordering .van-cell-group {
+  width: 8.97333333rem;
+  margin: 0 auto;
+}
+.tansincontent .ordering .van-cell__value {
+  color: #404040;
+  font-size: 0.37333333rem;
+  text-align: left;
+  -webkit-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+}
+.tansincontent .ordering .van-checkbox__label {
+  color: #898989;
+}
+.tansincontent .ordering .van-cell__title,
+.tansincontent .ordering .van-cell__value--alone {
+  color: #898989;
+  font-size: 0.37333333rem;
+}
+.tansincontent .ordering .posi {
+  position: relative;
+}
+.tansincontent .ordering .couponO {
+  left: 2.69333333rem;
+  top: 0.32rem;
+  color: #c5c5c5;
+}
+.tansincontent .ordering .couponOYes {
+  left: 2.50666667rem;
+  top: 0.37333333rem;
+  color: #fff;
+  border-radius: 0.10666667rem;
+  font-size: 0.24rem;
+  padding: 0.09333333rem;
+  padding-left: 0.21333333rem;
+  padding-right: 0.53333333rem;
+  background: linear-gradient(to right, #ff5a00, #ff4e4e);
+}
+.tansincontent .ordering .icon img {
+  height: 0.26666667rem;
+  margin-top: -0.05333333rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tansincontent .ordering .height {
+  height: 0.26666667rem;
+  background: #f6f6f6;
+  width: 100%;
+}
+.tansincontent .ordering .equity {
+  color: #898989;
+  padding-top: 0.61333333rem;
+  padding-bottom: 0.53333333rem;
+  width: 9.04rem;
+  margin: 0 auto;
+}
+.tansincontent .ordering .equity .title {
+  font-size: 0.4rem;
+  color: #404040;
+}
+.tansincontent .ordering .equity .title span {
+  color: #ff9e4f;
+}
+.tansincontent .ordering .equity .smallTitle {
+  font-size: 0.34666667rem;
+  margin-top: 0.21333333rem;
+  margin-bottom: 0.26666667rem;
+}
+.tansincontent .ordering .equity .van-cell__left-icon {
+  font-size: 0.53333333rem;
+  color: #ff9e4f;
+}
+.tansincontent .ordering .equity .van-cell:not(:last-child)::after {
+  border: none;
+}
+.tansincontent .ordering .equity .equityCell,
+.tansincontent .ordering .equity .equityUp {
+  padding: 0;
+}
+.tansincontent .ordering .equity .equityCell .van-cell__title,
+.tansincontent .ordering .equity .equityUp .van-cell__title {
+  font-size: 0.34666667rem;
+}
+.tansincontent .ordering .equity .equityUp {
+  padding-left: 0.53333333rem;
+}
+.tansincontent .ordering .orderOBox {
+  padding-left: 0.53333333rem;
+  padding-right: 0.53333333rem;
+  padding-top: 0.45333333rem;
+  padding-bottom: 0.45333333rem;
+  background: #f4f4ff;
+  border-top: 2px solid #e4e4fe;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.tansincontent .ordering .orderOBox .money {
+  color: #ff9e4f;
+  font-size: 0.37333333rem;
+  margin-right: 0.8rem;
+}
+.tansincontent .ordering .orderOBox .detail {
+  color: #898989;
+  font-size: 0.32rem;
+}
+.tansincontent .ordering .orderOBox .detail .van-icon {
+  margin-top: -0.06666667rem;
+  vertical-align: middle;
+}
+.tansincontent .ordering .orderOBox .submit {
+  background: linear-gradient(to right, #4b4c5e, #66718e);
+  margin-left: 0.48rem;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  color: #fff;
+  border-radius: 0.16rem;
+}
+.tansincontent .popDiv {
+  background: #fff;
+  width: 7.25333333rem;
+  padding-left: 0.53333333rem;
+  padding-right: 0.53333333rem;
+  padding-top: 0.93333333rem;
+  padding-bottom: 1.33333333rem;
+  border-radius: 0.13333333rem;
+}
+.tansincontent .popDiv .close img {
+  width: 0.64rem;
+  height: 0.64rem;
+  position: absolute;
+  right: 0.26666667rem;
+  top: 0.26666667rem;
+}
+.tansincontent .popDiv .title {
+  text-align: center;
+  color: #4D4F62;
+  font-size: 0.48rem;
+}
+.tansincontent .popDiv .table .tableTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.41333333rem;
+  padding-bottom: 0.45333333rem;
+  font-size: 0.37333333rem;
+  color: #898989;
+  border-bottom: 1px solid #EAEAEA;
+}
+.tansincontent .popDiv .table .table {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.53333333rem;
+}
+.tansincontent .popDiv .table .bottomMoney {
+  margin-top: 1.33333333rem;
+}
+.tansincontent .popDiv .table .bottomMoney div {
+  color: #404040 ;
+  margin-bottom: 0.26666667rem;
+}
+.tansincontent .popDiv .table .bottomMoney div span {
+  color: #FEA55F;
+}

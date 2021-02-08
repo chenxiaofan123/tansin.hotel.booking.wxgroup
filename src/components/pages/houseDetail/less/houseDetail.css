@@ -1,0 +1,214 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.tansincontent .baiduMap {
+  width: 100%;
+  height: 200px;
+}
+.tansincontent .houseDetail .banner {
+  position: relative;
+}
+.tansincontent .houseDetail .banner .van-swipe-item img {
+  width: 100%;
+  height: 100%;
+}
+.tansincontent .houseDetail .banner .van-swipe__indicators {
+  position: absolute;
+  left: 50%;
+  bottom: 24%;
+}
+.tansincontent .houseDetail .banner .van-swipe__indicator--active {
+  width: 0.53333333rem;
+  height: 0.16rem;
+  border-radius: 0.16rem;
+}
+.tansincontent .houseDetail .banner .van-swipe__indicator {
+  background-color: #fff;
+  opacity: 1;
+}
+.tansincontent .houseDetail .banner .address {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(46, 50, 58, 0.58);
+  height: 1.33333333rem;
+  line-height: 1.33333333rem;
+  color: #fff;
+  font-size: 0.37333333rem;
+}
+.tansincontent .houseDetail .banner .address .addText img {
+  width: 0.29333333rem;
+  height: 0.37333333rem;
+  margin-left: 0.53333333rem;
+  margin-right: 0.22666667rem;
+}
+.tansincontent .houseDetail .banner .address .addline {
+  width: 1px ;
+  height: 0.98666667rem;
+  border-right: 1px dotted #fff;
+  margin-top: 0.18666667rem;
+  margin-right: 0.36rem;
+}
+.tansincontent .houseDetail .banner .address .telIcon {
+  margin-top: 0.4rem;
+  margin-right: 0.53333333rem;
+  background: url(../images/tel.png) no-repeat;
+  background-size: 100% 100%;
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+.tansincontent .houseDetail .banner .address .telIcon a {
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+  display: block;
+}
+.tansincontent .houseDetail .detailText .detailPart {
+  padding: 5px;
+  border-top: 10px solid #f6f6f6;
+}
+.tansincontent .houseDetail .detailText .detailPart .detailTitle {
+  color: #404040;
+  font-size: 16px;
+  margin-bottom: 0.66666667rem;
+}
+[data-dpr="2"] .tansincontent .houseDetail .detailText .detailPart .detailTitle {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .tansincontent .houseDetail .detailText .detailPart .detailTitle {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .tansincontent .houseDetail .detailText .detailPart .detailTitle {
+  font-size: 44px;
+}
+[data-dpr="3"] .tansincontent .houseDetail .detailText .detailPart .detailTitle {
+  font-size: 48px;
+}
+[data-dpr="4"] .tansincontent .houseDetail .detailText .detailPart .detailTitle {
+  font-size: 64px;
+}
+.tansincontent .houseDetail .detailText .detailPart .detailContent {
+  font-size: 12px;
+  color: #898989;
+  line-height: 24px;
+}
+[data-dpr="2"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  font-size: 33px;
+}
+[data-dpr="3"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  font-size: 36px;
+}
+[data-dpr="4"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  font-size: 48px;
+}
+[data-dpr="2"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  line-height: 48px;
+}
+[data-dpr="2.5"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  line-height: 60px;
+}
+[data-dpr="2.75"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  line-height: 66px;
+}
+[data-dpr="3"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  line-height: 72px;
+}
+[data-dpr="4"] .tansincontent .houseDetail .detailText .detailPart .detailContent {
+  line-height: 96px;
+}
+.tansincontent .houseDetail .detailText .detailPart .detailContent .imgIcon img {
+  width: 1.42666667rem;
+  height: 1.56rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.6rem;
+}
+.tansincontent .houseDetail .detailText .detailPart .detailContent p {
+  padding-left: 0.53333333rem;
+  padding-right: 0.53333333rem;
+}
+.tansincontent .houseDetail .detailText .detailPart .checkAllText {
+  text-align: center;
+  color: #4976AF;
+  margin-top: 0.53333333rem;
+  margin-bottom: 0.53333333rem;
+}
+.tansincontent .houseDetail .detailText .detailPart .checkAllText .checkText {
+  width: 22%;
+  margin: 0 auto;
+}
+.tansincontent .houseDetail .detailText .detailPart .checkAllText .arrow {
+  background: url(../images/arrow.png) no-repeat;
+  background-size: 100% 100%;
+  width: 0.32rem;
+  height: 0.18666667rem;
+  display: block;
+  margin: 0 auto;
+  float: left;
+  margin-top: 0.18666667rem;
+}
+.tansincontent .houseDetail .detailText .detailPart .checkAllText .arrow1 {
+  background: url(../images/arrow.png) no-repeat;
+  background-size: 100% 100%;
+  width: 0.32rem;
+  height: 0.18666667rem;
+  display: block;
+  margin: 0 auto;
+  float: left;
+  margin-top: 0.18666667rem;
+  transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=2);
+}
+.tansincontent .houseDetail .detailText .detailPart .detailList {
+  padding-left: 0.53333333rem;
+  padding-right: 0.53333333rem;
+}
+.tansincontent .houseDetail .detailText .detailPart .detailList .list {
+  margin-bottom: 0.53333333rem;
+}
+.tansincontent .houseDetail .detailText .detailPart .detailList .list .icon {
+  background-image: url('../images/bg.png');
+  background-size: 100% 100%;
+  width: 0.48rem;
+  height: 0.48rem;
+  margin-right: 0.26666667rem;
+}
+.tansincontent .houseDetail .detailText .detailPart .detailList .list .icon img {
+  width: 0.32rem;
+  height: 0.29333333rem;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0.08rem;
+}
+.tansincontent .houseDetail .detailText .detailPart .detailList .list .listTitle {
+  margin-bottom: 0.26666667rem;
+  color: #404040;
+  font-size: 0.37333333rem;
+}
+.tansincontent .houseDetail .detailText .detailPart .detailList .list .listText {
+  color: #898989;
+}

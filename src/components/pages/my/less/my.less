@@ -1,0 +1,56 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.myContent{
+    background:rgba(246,246,246,1);
+    height:100%;
+    .px2rem(padding-top,1);
+    .inputContent{
+        .px2rem(margin-top,25);
+        .px2rem(height,106);
+        .px2rem(line-height,106);
+        background: #fff;
+        .px2rem(padding-left,38);
+        .infl{
+            width: 20%;
+        }
+        .infr{
+            width: 67%;
+            .name{
+                width: 100%;
+                .px2rem(height,106);
+                .px2rem(line-height,106);
+                border:none;
+            }
+        }
+    }
+    .tip{
+        .px2rem(margin-top,38);
+        .px2rem(margin-bottom,89);
+        .px2px(font-size,24);
+        color:rgba(137,137,137,1);
+        img{
+            .px2rem(width,30);
+            .px2rem(height,30);
+            .px2rem(margin-right,12);
+            display: block;
+            float: left;
+            .px2rem(margin-left,38);
+
+        }
+    }
+    .button{
+        .px2rem(width,670);
+        .px2rem(height,78);
+        .px2rem(line-height,78);
+        text-align: center;
+        color: #fff;
+        background:linear-gradient(90deg,rgba(75,76,94,1),rgba(102,113,142,1));
+        box-shadow:0px 4px 20px 0px rgba(48,48,48,0.4);
+        .px2rem(border-radius,39);
+        margin: 0 auto;
+    }
+ 
+}

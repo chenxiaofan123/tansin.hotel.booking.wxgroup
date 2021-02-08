@@ -1,0 +1,56 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.chooseContent{
+    background:rgba(246,246,246,1);
+    height:100%;
+    .px2rem(padding-top,1);
+    .chooseList{
+        .px2rem(width,690);
+         margin:0 auto;
+         background: #fff;
+        .px2rem(border-radius,10);
+        .px2rem(margin-top,24);
+        .choosefl{
+            .img{
+                .px2rem(width,160);
+                .px2rem(height,186);
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+
+            }
+            .roomText{
+                float: left;
+                .px2rem(margin-left,20);
+                .px2rem(margin-top,53);
+                .px2px(font-size,30);
+                color:rgba(64,64,64,1);
+                div:nth-child(2){
+                    .px2rem(margin-top,20);
+                    .px2px(font-size,20);
+                    color:rgba(153,153,153,1);
+                }
+            }
+        }
+        .choosefr{
+            .px2rem(height,186);
+            .px2rem(width,144);
+            border-left:1px solid rgb(235,235,235);
+            .chooseBtn{
+               .px2rem(height,68);
+               .px2rem(width,121);
+               text-align: center;
+               color: #fff;
+               .px2px(font-size,24);
+               .px2rem(line-height,68);
+               background:rgba(101,112,140,1);
+               .px2rem(margin-top,62);
+               .px2rem(margin-left,12);
+               .px2rem(border-radius,10);
+            }
+        }
+    }
+ 
+}

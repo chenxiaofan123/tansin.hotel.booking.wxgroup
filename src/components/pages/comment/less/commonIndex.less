@@ -1,0 +1,97 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.commonContent{
+    .commonTop{
+        background:linear-gradient(90deg,rgba(75,76,94,1),rgba(102,113,142,1));
+        box-shadow:0px 4px 20px 0px rgba(48,48,48,0.4);
+        .px2rem(width,750);
+        .px2rem(height,200);
+        .px2px(font-size,32);
+        font-weight: 400;
+        text-align: center;
+        font-weight:400;
+        color: #fff;
+        .px2px(padding-top,54);
+        .rate{
+            .px2rem(margin-bottom,10);
+        }
+        .allRate{
+            .px2rem(margin-top,10);
+        }
+
+    }
+    .commonPart{
+        .px2rem(width,672);
+         margin: 0 auto;
+        .px2rem(margin-top,66);
+        .commonTitle{
+            color: #555A70;
+            .px2rem(width,151);
+            border-bottom:1px solid #555A70;
+            .px2rem(padding-bottom,16);
+            margin:0 auto;
+            text-align: center;
+            .px2rem(margin-bottom,40);
+            }
+        .commonTab{
+            .px2rem(margin-bottom,60);
+            li{
+                .px2rem(padding-top,12);
+                .px2rem(padding-bottom,12);
+                .px2rem(padding-left,14);
+                .px2rem(padding-right,14);
+                color:rgba(137,137,137,1);
+                .px2px(font-size,24);
+                .px2rem(border-radius,10);
+                .px2rem(margin-right,4);
+                .px2rem(margin-top,23);
+                background:rgb(239,239,255);
+                float: left;
+            }
+
+        }
+        .commonList{
+            .listDiv{
+                border-top:1px solid rgb(233,233,233);
+                .px2rem(padding-top,40);
+                .px2rem(padding-bottom,40);
+                .listText{
+                    color:rgba(137,137,137,1);
+                    .px2px(font-size,24);
+                    
+                }
+                .listDate{
+                    color:rgba(64,64,64,1);
+                    .px2px(font-size,24);
+                    .px2rem(margin-bottom,20);
+                }
+                .listButton{
+                    border:1px solid rgb(255,176,117);
+                    text-align: center;
+                    color:  rgb(255,176,117);
+                    .px2rem(border-radius,6);
+                    .px2rem(margin-top,14);
+                    .px2rem(padding-left,15);
+                    .px2rem(padding-right,15);
+                    .px2rem(padding-top,6);
+                    .px2rem(padding-bottom,6);
+                    .px2px(font-size,24);
+                }
+            }
+            .checkAll{
+                text-align: center;
+                color: #C4C4C4;
+            }
+            .replayDiv{
+               margin:5px;
+               font:2pt;
+            }
+            
+        }
+
+        
+    }
+}

@@ -1,0 +1,103 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+.orderContent{
+    background:rgba(246,246,246,1);
+    height:100%;
+    .px2rem(padding-top,1);
+    #van-tabs{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        border-bottom: 1px solid rgb(248, 248, 248);
+    }
+    .van-tabs__nav--line{
+        padding-bottom: 0;
+    }
+    .van-tabs__nav{
+        position: relative;
+        height: 44px;
+        .van-tabs__line{
+            bottom: 0
+        }
+    }
+    .orderAll{
+        .px2rem(width,620);
+        margin:0 auto;
+        background: #fff;
+       .px2rem(border-radius,10);
+       .px2rem(margin-top,24);
+       .px2rem(padding-top,60);
+       .px2rem(padding-left,34);
+       .px2rem(padding-right,34);
+       .px2rem(padding-bottom,18);
+       color:rgba(137,137,137,1);
+       .px2rem(font-size,24);
+       .orderList{
+        .px2rem(padding-bottom,28);
+        border-bottom:1px solid rgb(234,234,234);
+        div{
+         .px2rem(margin-bottom,10);
+             span{
+                 color:  rgb(255,176,117);  
+             }
+            img{
+             .px2rem(width,22);
+             .px2rem(height,23);
+             .px2rem(margin-right,10);
+            }
+        }
+        div.orderTitle{
+         .px2rem(padding-bottom,18);
+         .px2rem(font-size,28);
+         color:rgba(64,64,64,1);
+         .px2rem(margin-bottom,10);
+         .status{
+             color:  rgb(255,176,117);  
+         }
+        }
+     }
+     .orderButton{
+         .px2rem(margin-top,30);
+         .money{
+            color:  #FF9E4F; 
+            .px2px(font-size,24);
+            .px2rem(margin-top,10);
+            font-weight: bold;
+         }
+         .clear{
+            .px2rem(width,160);
+            .px2rem(height,54);
+            .px2rem(line-height,58);
+            border:1px solid rgb(75,76,94);
+            .px2rem(border-radius,5);
+            text-align: center;
+            color: #4B4C5E;
+            .px2rem(margin-right,20);
+         }
+         .goPay{
+            .px2rem(width,160);
+            .px2rem(height,56);
+            .px2rem(line-height,56);
+            background:linear-gradient(90deg,rgba(75,76,94,1),rgba(102,113,142,1));
+            .px2rem(border-radius,5);
+            text-align: center;
+            color: #fff;
+         }
+         .copyBtn{
+            .px2rem(width,80);
+            padding: 3px 0 0 0;
+            text-align: center;
+         }
+         .copyBtn img{
+             width: 22px;
+         }
+     }
+    }
+   .empty-bgc{
+       background-color: #ffffff;
+   }
+  
+}

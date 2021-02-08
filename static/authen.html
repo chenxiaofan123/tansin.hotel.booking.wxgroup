@@ -1,0 +1,44 @@
+<html>
+<head>
+
+    <script>
+       function GetUrlParam(paraName) {
+        　　　var url = window.location.href;
+　　　　var arrObj = url.split("?");
+
+　　　　if (arrObj.length > 1) {
+　　　　　　var arrPara = arrObj[1].split("&");
+　　　　　　var arr;
+
+　　　　　　for (var i = 0; i < arrPara.length; i++) {
+　　　　　　　　arr = arrPara[i].split("=");
+
+　　　　　　　　if (arr != null && arr[0] == paraName) {
+　　　　　　　　　　return arr[1];
+　　　　　　　　}
+　　　　　　}
+　　　　　　return "";
+　　　　}
+　　　　else {
+　　　　　　return "";
+　　　　}
+　　}
+
+var appid = GetUrlParam("appid");
+    var tenantcode=GetUrlParam("tenantcode");
+    if(!appid||!tenantcode){
+      alert("appid或者租户id不能为空");
+    }else{
+        var callbackurl ="http://sandboxbooking.saaspms.com/home/callback";
+    var weurl = "https://open.weixin.qq.com/connect/oauth2/authorize?appid="+
+     appid+"&redirect_uri="+callbackurl+"&response_type=code&scope=snsapi_base&&state="+tenantcode;
+    location.href=weurl;
+    }
+
+    </script>
+</head>
+<body>
+
+</body>
+
+</html>

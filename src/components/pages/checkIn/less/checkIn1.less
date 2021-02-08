@@ -1,0 +1,45 @@
+@import "./../../../../assets/less/method.less";
+.backgroundImg(@url){
+    background-image: url(@url);
+    background-size: 100% 100%;
+}
+
+.checkInContent{
+    .addFapiao{
+        .px2rem(padding-left,30);
+        .px2rem(padding-right,30);
+        .px2rem(padding-top,66);
+        .fl{
+            .px2rem(font-size,32);
+            font-family:Source Han Sans CN;
+            font-weight:500;
+            color:rgba(64,64,64,1);
+            line-height:36px;
+        }
+        .fr{
+            .px2rem(width,126);
+            .px2rem(height,48);
+            .px2rem(line-height,48);
+            background:rgba(101,112,140,1);
+            .px2rem(border-radius,24);
+            text-align: center;
+            color: #fff;
+            .px2rem(margin-top,18);
+        }
+    }
+    .footerBtn{
+        .px2rem(width,670);
+        .px2rem(height,68);
+        .px2rem(line-height,68);
+        text-align: center;
+        color: #fff;
+        background:rgb(164,168,181);
+        border:1px solid rgba(184,184,222,1);
+        .px2rem(border-radius,34);
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        .px2rem(bottom,144);
+    }
+
+}

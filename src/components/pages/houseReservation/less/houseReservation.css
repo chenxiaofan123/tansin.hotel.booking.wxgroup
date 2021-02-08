@@ -1,0 +1,614 @@
+/***less公共的方法***/
+/***rem转换方法****/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bdbdbd;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #bdbdbd;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #bdbdbd;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.contentResveration {
+  background: #fff;
+  padding-bottom: 1.86666667rem;
+}
+.contentResveration .baiduMap {
+  width: 100%;
+  height: 200px;
+}
+.contentResveration .houseDetail .banner {
+  position: relative;
+}
+.contentResveration .houseDetail .banner .van-swipe-item img {
+  width: 100%;
+  height: 100%;
+}
+.contentResveration .houseDetail .banner .van-swipe__indicators {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+}
+.contentResveration .houseDetail .banner .van-swipe__indicator--active {
+  width: 0.53333333rem;
+  height: 0.16rem;
+  border-radius: 0.16rem;
+}
+.contentResveration .houseDetail .banner .van-swipe__indicator {
+  background-color: #fff;
+  opacity: 1;
+}
+.contentResveration .houseDetail .mapContent .mapTitle {
+  padding-top: 0.26666667rem;
+  padding-bottom: 0.26666667rem;
+  padding-left: 0.50666667rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: #404040;
+}
+[data-dpr="2"] .contentResveration .houseDetail .mapContent .mapTitle {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .contentResveration .houseDetail .mapContent .mapTitle {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .contentResveration .houseDetail .mapContent .mapTitle {
+  font-size: 44px;
+}
+[data-dpr="3"] .contentResveration .houseDetail .mapContent .mapTitle {
+  font-size: 48px;
+}
+[data-dpr="4"] .contentResveration .houseDetail .mapContent .mapTitle {
+  font-size: 64px;
+}
+.contentResveration .houseDetail .mapContent .mapbg {
+  background: url(../images/mapbg.png) no-repeat;
+  background-size: 100% 100%;
+  width: 10rem;
+  height: 1.62666667rem;
+  line-height: 1.62666667rem;
+  color: #fff;
+  text-indent: 0.50666667rem;
+  font-weight: 400;
+  font-size: 14px;
+}
+[data-dpr="2"] .contentResveration .houseDetail .mapContent .mapbg {
+  font-size: 28px;
+}
+[data-dpr="2.5"] .contentResveration .houseDetail .mapContent .mapbg {
+  font-size: 35px;
+}
+[data-dpr="2.75"] .contentResveration .houseDetail .mapContent .mapbg {
+  font-size: 39px;
+}
+[data-dpr="3"] .contentResveration .houseDetail .mapContent .mapbg {
+  font-size: 42px;
+}
+[data-dpr="4"] .contentResveration .houseDetail .mapContent .mapbg {
+  font-size: 56px;
+}
+.contentResveration .houseDetail .mapContent .mapCommon {
+  padding-top: 0.45333333rem;
+  padding-bottom: 0.45333333rem;
+  padding-left: 0.50666667rem;
+  padding-right: 0.50666667rem;
+  border-bottom: 10px solid #F6F6F6;
+}
+.contentResveration .houseDetail .mapContent .mapCommon .fl {
+  color: #FFAD6F;
+}
+.contentResveration .houseDetail .mapContent .mapCommon .fl span {
+  font-size: 18px;
+  font-weight: bold ;
+}
+[data-dpr="2"] .contentResveration .houseDetail .mapContent .mapCommon .fl span {
+  font-size: 36px;
+}
+[data-dpr="2.5"] .contentResveration .houseDetail .mapContent .mapCommon .fl span {
+  font-size: 45px;
+}
+[data-dpr="2.75"] .contentResveration .houseDetail .mapContent .mapCommon .fl span {
+  font-size: 50px;
+}
+[data-dpr="3"] .contentResveration .houseDetail .mapContent .mapCommon .fl span {
+  font-size: 54px;
+}
+[data-dpr="4"] .contentResveration .houseDetail .mapContent .mapCommon .fl span {
+  font-size: 72px;
+}
+.contentResveration .houseDetail .mapContent .mapCommon .fr {
+  color: #FFAD6F;
+  font-size: 14px;
+}
+[data-dpr="2"] .contentResveration .houseDetail .mapContent .mapCommon .fr {
+  font-size: 28px;
+}
+[data-dpr="2.5"] .contentResveration .houseDetail .mapContent .mapCommon .fr {
+  font-size: 35px;
+}
+[data-dpr="2.75"] .contentResveration .houseDetail .mapContent .mapCommon .fr {
+  font-size: 39px;
+}
+[data-dpr="3"] .contentResveration .houseDetail .mapContent .mapCommon .fr {
+  font-size: 42px;
+}
+[data-dpr="4"] .contentResveration .houseDetail .mapContent .mapCommon .fr {
+  font-size: 56px;
+}
+.contentResveration .houseDetail .mapContent .mapCommon .fr .icon img {
+  width: 0.16rem;
+  height: 0.29333333rem;
+  margin-left: 0.16rem;
+}
+.contentResveration .houseDetail .mapContent .calenderTab {
+  padding-top: 0.45333333rem;
+  padding-bottom: 0.45333333rem;
+  padding-left: 0.50666667rem;
+  padding-right: 0.50666667rem;
+  border-bottom: 10px solid #F6F6F6;
+  font-size: 0.37333333rem;
+}
+.contentResveration .houseDetail .mapContent .calenderTab .fl .calender {
+  width: 0.4rem;
+  height: 0.37333333rem;
+  margin-right: 0.26666667rem;
+  font-size: 0.37333333rem;
+  display: block;
+}
+.contentResveration .houseDetail .mapContent .calenderTab .fl .calender img {
+  width: 0.4rem;
+  height: 0.37333333rem;
+  margin-top: 2px;
+}
+.contentResveration .houseDetail .mapContent .calenderTab .fr {
+  color: #FFAD6F;
+  font-size: 14px;
+}
+[data-dpr="2"] .contentResveration .houseDetail .mapContent .calenderTab .fr {
+  font-size: 28px;
+}
+[data-dpr="2.5"] .contentResveration .houseDetail .mapContent .calenderTab .fr {
+  font-size: 35px;
+}
+[data-dpr="2.75"] .contentResveration .houseDetail .mapContent .calenderTab .fr {
+  font-size: 39px;
+}
+[data-dpr="3"] .contentResveration .houseDetail .mapContent .calenderTab .fr {
+  font-size: 42px;
+}
+[data-dpr="4"] .contentResveration .houseDetail .mapContent .calenderTab .fr {
+  font-size: 56px;
+}
+.contentResveration .houseDetail .mapContent .calenderTab .fr .icon img {
+  width: 0.16rem;
+  height: 0.29333333rem;
+  margin-left: 0.16rem;
+}
+.contentResveration .houseDetail .mapContent .advTab {
+  width: 10rem;
+  height: 1.36rem;
+  border-bottom: 10px solid #F6F6F6;
+}
+.contentResveration .houseDetail .mapContent .advTab .bgTab img {
+  width: 100%;
+  height: 100%;
+}
+.contentResveration .houseDetail .roomContent [class*=van-hairline]::after {
+  border: none;
+}
+.contentResveration .houseDetail .roomContent .van-tabs {
+  margin: 0 auto;
+  width: 9.06666667rem;
+  margin-bottom: 0.26666667rem;
+  margin-top: 0.26666667rem;
+}
+.contentResveration .houseDetail .roomContent .van-tabs__nav {
+  background: none;
+}
+.contentResveration .houseDetail .roomContent .van-tabs--line .van-tabs__wrap {
+  height: 0.74666667rem;
+}
+.contentResveration .houseDetail .roomContent .van-tabs__line {
+  height: 0;
+}
+.contentResveration .houseDetail .roomContent .van-tab {
+  line-height: 0.74666667rem;
+  font-size: 0.32rem;
+  margin-right: 0.21333333rem;
+  border-radius: 0.10666667rem;
+  border: 1px solid #d6d6d6;
+}
+.contentResveration .houseDetail .roomContent .van-tab--active {
+  color: #fff;
+  border: none;
+  background: #65708c;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomTop {
+  padding-left: 0.53333333rem;
+  padding-right: 0.53333333rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  color: #404040;
+  font-size: 0.37333333rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomTop span {
+  font-size: 0.42666667rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomTop .icon1 {
+  background: url(../images/tip.png) no-repeat;
+  background-size: 100% 100%;
+  width: 0.28rem;
+  height: 0.28rem;
+  display: block;
+  margin-left: 0.26666667rem;
+  margin-top: 0.16rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomTop .icon2 {
+  background: url(../images/arrow.png) no-repeat;
+  background-size: 100% 100%;
+  width: 0.29333333rem;
+  height: 0.16rem;
+  display: block;
+  margin-left: 0.26666667rem;
+  float: right;
+  margin-top: 0.24rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList {
+  background: #F6F6F6;
+  padding-left: 0.53333333rem;
+  padding-right: 0.53333333rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room:first-child {
+  padding-top: 0.53333333rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room {
+  padding-top: 0.26666667rem;
+  padding-bottom: 0.53333333rem;
+  color: #a7a8aa;
+  font-size: 12px;
+}
+[data-dpr="2"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room {
+  font-size: 33px;
+}
+[data-dpr="3"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room {
+  font-size: 36px;
+}
+[data-dpr="4"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room {
+  font-size: 48px;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfl div {
+  margin-bottom: 0.08rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfl div .zhi {
+  background: linear-gradient(0deg, #fd952e, #ff2339);
+  border-radius: 5px;
+  color: #fff;
+  width: 0.72rem;
+  height: 0.38666667rem;
+  line-height: 0.38666667rem;
+  font-size: 8px;
+  text-align: center;
+  padding-left: 0.13333333rem;
+  padding-right: 0.13333333rem;
+  padding-top: 0.08rem;
+  padding-bottom: 0.08rem;
+  margin-left: 0.13333333rem;
+}
+[data-dpr="2"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfl div .zhi {
+  font-size: 16px;
+}
+[data-dpr="2.5"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfl div .zhi {
+  font-size: 20px;
+}
+[data-dpr="2.75"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfl div .zhi {
+  font-size: 22px;
+}
+[data-dpr="3"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfl div .zhi {
+  font-size: 24px;
+}
+[data-dpr="4"] .contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfl div .zhi {
+  font-size: 32px;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfl div:nth-child(1) {
+  color: #65708C;
+  font-size: 0.42666667rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfr .dingBtn {
+  font-weight: 400;
+  font-size: 0.32rem;
+  width: 1.53333333rem;
+  height: 0.93333333rem;
+  text-align: center;
+  border: 1px solid #65708C;
+  line-height: 0.93333333rem;
+  border-radius: 5px;
+  margin-top: 0.26666667rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfr .dingBtn .ding {
+  color: #fff;
+  background: #65708C;
+  height: 0.45333333rem;
+  line-height: 0.45333333rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfr .dingBtn .online {
+  color: #65708C;
+  height: 0.48rem;
+  line-height: 0.48rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfr .dingMoney {
+  color: #FFAD6F;
+  font-size: 0.42666667rem;
+  margin-right: 0.45333333rem;
+  margin-top: 0.34666667rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .room .roomfr .dingMoney .delMoney {
+  font-size: 0.32rem;
+  color: #65708C;
+  text-decoration: line-through;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .moneyTip {
+  width: 8.93333333rem;
+  border-top: 1px dotted #65708C;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .moneyTip .tipIcon {
+  float: left;
+  margin-right: 0.36rem;
+  margin-top: 0.30666667rem;
+  margin-bottom: 0.48rem;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .moneyTip .tipIcon .song {
+  color: #fff;
+  background: linear-gradient(0deg, #fd952e, #ff2339);
+  border-radius: 5px 0px 0px 5px;
+  padding-left: 0.30666667rem;
+  padding-right: 0.30666667rem;
+  padding-top: 0.10666667rem;
+  padding-bottom: 0.10666667rem;
+  text-align: center;
+  float: left;
+}
+.contentResveration .houseDetail .roomContent .roomPart .roomList .moneyTip .tipIcon .number {
+  padding-left: 0.16rem;
+  padding-right: 0.16rem;
+  padding-top: 0.10666667rem;
+  padding-bottom: 0.10666667rem;
+  float: left;
+  text-align: center;
+  background: #F7E7E2;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #FF9E4F;
+}
+.contentResveration .houseDetail .selectDate {
+  width: 85%;
+  float: left;
+}
+.contentResveration .houseDetail .changeCheckinType {
+  float: right;
+  text-align: right;
+}
+.contentResveration .popConetnt {
+  border-radius: 10px;
+  width: 6.72rem;
+  padding-left: 0.53333333rem;
+  padding-right: 0.53333333rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin: 0 auto;
+  position: relative;
+}
+.contentResveration .popConetnt .closeIcon {
+  background: url(../images/closeCircle.png) no-repeat;
+  background-size: 100% 100%;
+  width: 0.64rem;
+  height: 0.64rem;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.contentResveration .popConetnt .title {
+  text-align: center;
+  margin-bottom: 0.26666667rem;
+  color: #4B4C5E;
+  font-size: 18px;
+}
+[data-dpr="2"] .contentResveration .popConetnt .title {
+  font-size: 36px;
+}
+[data-dpr="2.5"] .contentResveration .popConetnt .title {
+  font-size: 45px;
+}
+[data-dpr="2.75"] .contentResveration .popConetnt .title {
+  font-size: 50px;
+}
+[data-dpr="3"] .contentResveration .popConetnt .title {
+  font-size: 54px;
+}
+[data-dpr="4"] .contentResveration .popConetnt .title {
+  font-size: 72px;
+}
+.contentResveration .popConetnt .popText {
+  height: 4rem;
+  width: 6rem;
+  font-size: 10px;
+  margin: 0 auto;
+  color: #898989;
+}
+[data-dpr="2"] .contentResveration .popConetnt .popText {
+  font-size: 20px;
+}
+[data-dpr="2.5"] .contentResveration .popConetnt .popText {
+  font-size: 25px;
+}
+[data-dpr="2.75"] .contentResveration .popConetnt .popText {
+  font-size: 28px;
+}
+[data-dpr="3"] .contentResveration .popConetnt .popText {
+  font-size: 30px;
+}
+[data-dpr="4"] .contentResveration .popConetnt .popText {
+  font-size: 40px;
+}
+.contentResveration .popConetnt .popText .listTab {
+  margin-bottom: 0.4rem;
+}
+.contentResveration .popConetnt .popText .listTab .list {
+  margin-right: 0.93333333rem;
+}
+.contentResveration .popConetnt .popText .listTab .list span {
+  width: 0.18666667rem;
+  height: 0.18666667rem;
+  border-radius: 50%;
+  background: #FF9E4F;
+  display: block;
+  float: left;
+  margin-top: 0.13333333rem;
+  margin-right: 0.13333333rem;
+}
+.indexPopDiv .popbg {
+  width: 80%;
+  background-image: url('../images/popbg.png');
+  background-size: 100% 100%;
+  width: 7.29333333rem;
+  height: 9.92rem;
+  position: relative;
+}
+.indexPopDiv .popbg .close {
+  background-image: url('../images/closeCircle.png');
+  background-size: 100% 100%;
+  width: 0.64rem;
+  height: 0.64rem;
+  position: absolute;
+  top: -0.66666667rem;
+  right: -0.66666667rem;
+}
+.indexPopDiv .popbg .coupon {
+  background-image: url('../images/conbg.png');
+  background-size: 100% 100%;
+  width: 4.66666667rem;
+  height: 2.21333333rem;
+  position: absolute;
+  padding-left: 0.42666667rem;
+  top: 2.16rem;
+  left: 1.56rem;
+  color: #fff;
+}
+.indexPopDiv .popbg .coupon .money {
+  margin-top: 0.4rem;
+  font-size: 19px;
+  font-weight: 400;
+  margin-right: 0.26666667rem;
+}
+[data-dpr="2"] .indexPopDiv .popbg .coupon .money {
+  font-size: 38px;
+}
+[data-dpr="2.5"] .indexPopDiv .popbg .coupon .money {
+  font-size: 48px;
+}
+[data-dpr="2.75"] .indexPopDiv .popbg .coupon .money {
+  font-size: 52px;
+}
+[data-dpr="3"] .indexPopDiv .popbg .coupon .money {
+  font-size: 57px;
+}
+[data-dpr="4"] .indexPopDiv .popbg .coupon .money {
+  font-size: 76px;
+}
+.indexPopDiv .popbg .coupon .money span {
+  font-size: 40px;
+}
+[data-dpr="2"] .indexPopDiv .popbg .coupon .money span {
+  font-size: 80px;
+}
+[data-dpr="2.5"] .indexPopDiv .popbg .coupon .money span {
+  font-size: 100px;
+}
+[data-dpr="2.75"] .indexPopDiv .popbg .coupon .money span {
+  font-size: 110px;
+}
+[data-dpr="3"] .indexPopDiv .popbg .coupon .money span {
+  font-size: 120px;
+}
+[data-dpr="4"] .indexPopDiv .popbg .coupon .money span {
+  font-size: 160px;
+}
+.indexPopDiv .popbg .coupon .tip {
+  margin-top: 0.53333333rem;
+}
+.indexPopDiv .popbg .coupon .tip .tipButton {
+  font-size: 12px !important;
+  border: 1px solid #fff;
+  border-radius: 0.66666667rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-top: 5px;
+}
+[data-dpr="2"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-left: 6px;
+}
+[data-dpr="2.5"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-left: 8px;
+}
+[data-dpr="2.75"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-left: 8px;
+}
+[data-dpr="3"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-left: 9px;
+}
+[data-dpr="4"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-left: 12px;
+}
+[data-dpr="2"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-right: 6px;
+}
+[data-dpr="2.5"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-right: 8px;
+}
+[data-dpr="2.75"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-right: 8px;
+}
+[data-dpr="3"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-right: 9px;
+}
+[data-dpr="4"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  padding-right: 12px;
+}
+[data-dpr="2"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  margin-top: 10px;
+}
+[data-dpr="2.5"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  margin-top: 13px;
+}
+[data-dpr="2.75"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  margin-top: 14px;
+}
+[data-dpr="3"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  margin-top: 15px;
+}
+[data-dpr="4"] .indexPopDiv .popbg .coupon .tip .tipButton {
+  margin-top: 20px;
+}
+.indexPopDiv .popbg .getButton {
+  background-image: url('../images/button.png');
+  background-size: 100% 100%;
+  width: 4.92rem;
+  height: 1.06666667rem;
+  position: absolute;
+  left: 55%;
+  bottom: 5%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}

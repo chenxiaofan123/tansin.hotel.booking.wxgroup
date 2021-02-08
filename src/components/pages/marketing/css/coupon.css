@@ -1,0 +1,306 @@
+body, html, .page{
+  height: auto;
+}
+.marketingCon .van-tabs--line .van-tabs__wrap{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 10px 0px rgba(212, 212, 212, 0.26);
+}
+.marketingCon .van-tab{
+  color: #333;
+  font-size: 15px;
+}
+.marketingCon .van-tab--active .van-tab__text{
+  color: #ff0000;
+}
+.marketingCon .van-tabs__line{
+  height: 2px;
+  background-color: #ff0000;
+}
+.marketingCon .van-tabs__content{
+  margin-top: 60px;
+  padding-bottom: 15px;
+}
+.marketingCon .couponList{
+  margin: 0px 15px 12px;
+  background: #FFFFFF;
+  border: 1px solid #E0A132;
+  box-shadow: 0px 0px 10px 0px rgba(255, 166, 166, 0.2);
+  border-radius: 5px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  height: auto;
+  overflow: hidden;
+}
+
+
+/*秒杀*/
+/* .swiperDiv{
+  margin-top: -15px;
+} */
+.current {
+  display: block;
+}
+.swiperDiv .swiper-container{
+  position: fixed;
+  left: 0;
+  top: 45px;
+  width: 96%;
+  background-color: #FF3232;
+  border-radius: 0 0 50px 50px;
+  padding: 4px 2%;
+}
+.swiperDiv .swiper-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.swiperDiv .swiper-slide {
+  width: 36%;
+  margin: 0 3%;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  text-align: center;
+  padding: 6px 0;
+  color: #fff;
+}
+.swiperDiv .active{
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.swiper-slide div{
+  font-size: 15px;
+}
+.swiper-slide .smallText{
+  font-size: 10px;
+}
+.smallTime{
+  font-size: 10px;
+}
+.van-progress{
+  display: inline-block !important;
+  width: 66% !important;
+  height: 12px !important;
+  background: #FFEDED !important;
+}
+.van-progress__portion /deep/ .van-progress__pivot{
+  left: 5% !important;
+  background: initial !important;
+  font-size: 10px;
+}
+.miaoBtn img{
+  width: 40px!important;
+  margin-left: 0 !important;
+}
+.timeBtn{
+  background-color: #FF3C00 !important;
+}
+
+/*团购、预购*/
+.marketingCon  .otherList{
+  border: 0;
+  padding: 8px 5px;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.hotleTime{
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+.hotleTime span{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.hotleImages .van-count-down .block{
+  width: 16px;
+  height: 16px;
+  font-size: 12px;
+}
+.hotleImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #f8f8f8;
+  float: left;
+}
+.hotleImg img{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.hotleCon{
+  margin: 0 0 0 12px;
+  float: left;
+  color: #666666;
+  font-size: 14px;
+  width: 55%;
+}
+.hotleTitle{
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  
+}
+.hotleName{
+  font-size: 15px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.remark{
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  display:-ms-flexbox;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 13px;
+}
+.smallTime{
+  font-size: 12px;
+  margin: 10px 0 5px;
+}
+.smallTime img{
+  width: 11px;
+  position: relative;
+  top: 2px;
+}
+.redP{
+  font-size: 20px;
+  color: #ff0000;
+}
+.redP span{
+  font-size: 12px;
+}
+.yuanPrice{
+  text-decoration: line-through;
+}
+.handleBtn{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background: #FF0000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+}
+.tuanBtn{
+  line-height: 50px;
+}
+.handleBtn img{
+  width: 24px;
+  margin-left: -3px;
+}
+
+/*抢券*/
+.radial-gradient{
+  width: 31%;
+  height: 100px;
+  padding: 5px;
+  margin: 9px 0;
+  border-right: 1px dashed #E0A131;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #E0A131;
+  font-size: 12px;
+}
+.price {
+  font-size: 40px;
+  font-weight: 500;
+}
+.price span{
+  font-size: 20px;
+}
+.right {
+  text-align: left;
+  width: 48%;
+  padding: 0 8px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.top {
+  font-size: 15px;
+  color: #333333;
+  font-weight: 600;
+  width: 100%;
+  margin: 6px 0;
+}
+.limit{
+  display: inline-block;
+  background-color: rgb(254, 59, 15);
+  border-radius: 15px;
+  padding: 2px 6px;
+  margin-right: 4px;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: 500;
+}
+.price {
+  width: 100%;
+}
+.priceNum{
+  width: 100%;
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 600;
+}
+.priceNum span span{
+  font-size: 12px;
+}
+.priceNum del{
+  font-size: 12px;
+  color: #666;
+  text-decoration: line-through;
+}
+.surplus {
+  font-size: 12px;
+  color: #E0A131;
+  padding: 2px 8px;
+  background: #F4F4F4;
+  border-radius: 4px;
+  position: relative;
+    margin-top: -10px;
+}
+
+.btnbuy{
+  min-height: 100%;
+  /* background-color: #E0A131; */
+  background-image: url(../images/buyBg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0 5px 5px 0;
+  padding: 20px 24px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  font-weight: 600;
+}
+.btnbuy:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: -5px;
+  width: 10px;
+  height: 100%;
+  background: radial-gradient(circle, #fff, #fff 4px, transparent 5px);
+  background-size: 10px 10px;
+}
